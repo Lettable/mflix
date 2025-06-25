@@ -1,8 +1,8 @@
 import {
   APP_VERSION,
   BACKEND_URL,
-  TELEGRAM_LINK,
   GITHUB_LINK,
+  TELEGRAM_LINK,
   TWITTER_LINK,
 } from "./constants";
 

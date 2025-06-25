@@ -78,7 +78,7 @@ export enum Icons {
   SUPPORT = "support",
   TMDB = "tmdb",
   IMDB = "imdb",
-  TELEGRAM = "telegram"
+  TELEGRAM = "telegram",
 }
 
 export interface IconProps {
