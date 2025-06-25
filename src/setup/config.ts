@@ -7,7 +7,6 @@ import {
   TWITTER_LINK,
 } from "./constants";
 
-
 interface Config {
   APP_VERSION: string;
   GITHUB_LINK: string;
