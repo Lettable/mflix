@@ -3,6 +3,7 @@ import {
   BACKEND_URL,
   GITHUB_LINK,
   TELEGRAM_LINK,
+  DISCORD_LINK,
   TWITTER_LINK,
 } from "./constants";
 
@@ -10,6 +11,7 @@ interface Config {
   APP_VERSION: string;
   GITHUB_LINK: string;
   TELEGRAM_LINK: string;
+  DISCORD_LINK: string;
   DMCA_EMAIL: string;
   TWITTER_LINK: string;
   TMDB_READ_API_KEY: string;
@@ -36,6 +38,7 @@ export interface RuntimeConfig {
   APP_VERSION: string;
   GITHUB_LINK: string;
   TELEGRAM_LINK: string;
+  DISCORD_LINK: string;
   DMCA_EMAIL: string | null;
   TWITTER_LINK: string;
   TMDB_READ_API_KEY: string | null;
@@ -62,6 +65,7 @@ const env: Record<keyof Config, undefined | string> = {
   TMDB_READ_API_KEY: import.meta.env.VITE_TMDB_READ_API_KEY,
   APP_VERSION: undefined,
   GITHUB_LINK: undefined,
+  TELEGRAM_LINK: undefined,
   DISCORD_LINK: undefined,
   TWITTER_LINK: undefined,
   ONBOARDING_CHROME_EXTENSION_INSTALL_LINK: import.meta.env
@@ -111,6 +115,7 @@ export function conf(): RuntimeConfig {
     APP_VERSION,
     GITHUB_LINK,
     TELEGRAM_LINK,
+    DISCORD_LINK,
     TWITTER_LINK,
     DMCA_EMAIL: getKey("DMCA_EMAIL"),
     ONBOARDING_CHROME_EXTENSION_INSTALL_LINK: getKey(
