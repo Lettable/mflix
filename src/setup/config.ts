@@ -1,6 +1,7 @@
 import {
   APP_VERSION,
   BACKEND_URL,
+  TELEGRAM_LINK,
   DISCORD_LINK,
   GITHUB_LINK,
   TWITTER_LINK,
@@ -9,6 +10,7 @@ import {
 interface Config {
   APP_VERSION: string;
   GITHUB_LINK: string;
+  TELEGRAM_LINK: string;
   DISCORD_LINK: string;
   DMCA_EMAIL: string;
   TWITTER_LINK: string;
@@ -35,6 +37,7 @@ interface Config {
 export interface RuntimeConfig {
   APP_VERSION: string;
   GITHUB_LINK: string;
+  TELEGRAM_LINK: string;
   DISCORD_LINK: string;
   DMCA_EMAIL: string | null;
   TWITTER_LINK: string;
@@ -111,6 +114,7 @@ export function conf(): RuntimeConfig {
     APP_VERSION,
     GITHUB_LINK,
     DISCORD_LINK,
+    TELEGRAM_LINK,
     TWITTER_LINK,
     DMCA_EMAIL: getKey("DMCA_EMAIL"),
     ONBOARDING_CHROME_EXTENSION_INSTALL_LINK: getKey(
