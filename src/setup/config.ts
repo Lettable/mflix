@@ -1,11 +1,12 @@
 import {
   APP_VERSION,
   BACKEND_URL,
+  DISCORD_LINK,
   GITHUB_LINK,
   TELEGRAM_LINK,
-  DISCORD_LINK,
   TWITTER_LINK,
 } from "./constants";
+
 
 interface Config {
   APP_VERSION: string;
