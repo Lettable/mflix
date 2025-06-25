@@ -2,7 +2,6 @@ import {
   APP_VERSION,
   BACKEND_URL,
   TELEGRAM_LINK,
-  DISCORD_LINK,
   GITHUB_LINK,
   TWITTER_LINK,
 } from "./constants";
@@ -11,7 +10,6 @@ interface Config {
   APP_VERSION: string;
   GITHUB_LINK: string;
   TELEGRAM_LINK: string;
-  DISCORD_LINK: string;
   DMCA_EMAIL: string;
   TWITTER_LINK: string;
   TMDB_READ_API_KEY: string;
@@ -38,7 +36,6 @@ export interface RuntimeConfig {
   APP_VERSION: string;
   GITHUB_LINK: string;
   TELEGRAM_LINK: string;
-  DISCORD_LINK: string;
   DMCA_EMAIL: string | null;
   TWITTER_LINK: string;
   TMDB_READ_API_KEY: string | null;
@@ -113,7 +110,6 @@ export function conf(): RuntimeConfig {
   return {
     APP_VERSION,
     GITHUB_LINK,
-    DISCORD_LINK,
     TELEGRAM_LINK,
     TWITTER_LINK,
     DMCA_EMAIL: getKey("DMCA_EMAIL"),
