@@ -123,7 +123,7 @@ export function AdsPart(): JSX.Element | null {
               <div>
                 <p className="text-xs text-type-dimmed text-center pt-2 mx-4">
                   <a
-                    href="https://discord.gg/mcjnJK98Gd"
+                    href="https://t.me/ig_fk"
                     target="_blank"
                     rel="noreferrer"
                   >
