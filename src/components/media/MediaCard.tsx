@@ -81,32 +81,33 @@ function MediaCardContent({
 
   return (
     <Flare.Base
-      className={`group -m-[0.705em] rounded-xl bg-background-main transition-all duration-700 ease-in-out focus:relative focus:z-10 ${
+      className={`group -m-[0.705em] rounded-xl bg-background-main transition-all duration-300 ease-[cubic-bezier(0.4,0,0.2,1)] focus:relative focus:z-10 ${
         canLink ? "hover:bg-mediaCard-hoverBackground tabbable" : ""
       }`}
       tabIndex={canLink ? 0 : -1}
       onKeyUp={(e) => e.key === "Enter" && e.currentTarget.click()}
     >
       <Flare.Light
-        flareSize={1}
+        flareSize={200}
         cssColorVar="--colors-mediaCard-hoverAccent"
-        backgroundClass="bg-mediaCard-hoverBackground duration-100"
+        backgroundClass="bg-mediaCard-hoverBackground duration-300 ease-[cubic-bezier(0.4,0,0.2,1)]"
         className={classNames({
-          "rounded-xl bg-background-main group-hover:opacity-100": canLink,
+          "rounded-xl bg-background-main transition-opacity duration-300 ease-[cubic-bezier(0.4,0,0.2,1)]": true,
+          "opacity-0": !canLink,
+          "group-hover:opacity-100": canLink,
         })}
       />
       <Flare.Child
-        className={`pointer-events-auto relative mb-2 p-[0.4em] transition-transform duration-700 ease-in-out ${
-          canLink ? "group-hover:scale-95" : "scale-100"
+        className={`pointer-events-auto relative mb-2 p-[0.4em] transition-all duration-300 ease-[cubic-bezier(0.4,0,0.2,1)] ${
+          canLink ? "group-hover:scale-[0.97]" : "opacity-60"
         }`}
       >
         <div
           className={classNames(
-            "relative mb-4 pb-[150%] w-full overflow-hidden rounded-xl bg-mediaCard-hoverBackground bg-cover bg-center transition-[border-radius] duration-150 ease-out",
+            "relative mb-4 pb-[150%] w-full overflow-hidden rounded-xl bg-mediaCard-hoverBackground bg-cover bg-center transition-all duration-300 ease-[cubic-bezier(0.4,0,0.2,1)]",
             {
-              "group-hover:rounded-lg": canLink,
-            },
-            "absolute inset-x-0 -bottom-px"
+              "group-hover:rounded-[10px]": canLink,
+            }
           )}
           style={{
             backgroundImage: media.poster
@@ -137,17 +138,13 @@ function MediaCardContent({
           {percentage !== undefined ? (
             <>
               <div
-                className={`absolute inset-x-0 -bottom-px pb-1 h-12 bg-gradient-to-t transition-all duration-700 ease-in-out ${
-                  canLink
-                    ? "from-mediaCard-shadow group-hover:from-mediaCard-hoverShadow"
-                    : "from-mediaCard-shadow"
+                className={`absolute inset-x-0 -bottom-px pb-1 h-12 bg-gradient-to-t from-mediaCard-shadow to-transparent transition-colors ${
+                  canLink ? "group-hover:from-mediaCard-hoverShadow" : ""
                 }`}
               />
               <div
-                className={`absolute inset-x-0 bottom-0 h-12 bg-gradient-to-t transition-all duration-700 ease-in-out ${
-                  canLink
-                    ? "from-mediaCard-shadow group-hover:from-mediaCard-hoverShadow"
-                    : "from-mediaCard-shadow"
+                className={`absolute inset-x-0 bottom-0 h-12 bg-gradient-to-t from-mediaCard-shadow to-transparent transition-colors ${
+                  canLink ? "group-hover:from-mediaCard-hoverShadow" : ""
                 }`}
               />
               <div className="absolute inset-x-0 bottom-0 p-3">
