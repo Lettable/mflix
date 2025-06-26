@@ -19,7 +19,7 @@
         },
         "q5": {
             "title": "Hol tudhatok meg többet?",
-            "body": "Van a M-Flix-nek egy Discord szervere, amit megtalálhatsz ennek az oldalnak a fejlécén!"
+            "body": "Van a M-Flix-nek egy Telegram szervere, amit megtalálhatsz ennek az oldalnak a fejlécén!"
         },
         "title": "M-Flix-ről",
         "description": "M-Flix egy mellékágja(forkja) a movie-webnek, amelynek fennmaradása biztosítva van a movie-web.app leállása után is. M-Flix egy privát, \"self-hosted\" VPS-en fut. Az oldalt veszteségesen futtatom;nincsenek reklámok a szabad/ingyenes médiában való hitem miatt."
@@ -93,7 +93,7 @@
             "disclaimerText": "Felhívjuk figyelmedet, hogy a M-Flix nem tárol fájlokat, hanem csak harmadik fél szolgáltatóinak tartalmát jeleníti meg. Jogi kérdésekkel közvetlenül hozzájuk kell fordulni."
         },
         "links": {
-            "discord": "Discord",
+            "Telegram": "Telegram",
             "dmca": "DMCA",
             "github": "GitHub",
             "twitter": "Twitter",
@@ -399,7 +399,7 @@
                         "fedapi": "Továbbiak: FED API (privát) token",
                         "fedapiDescription": "Hozd az INGYENES Febbox fioókodat, hogy hozzáférést nyerj a FED API (privát-hoz), a legjobb forrás 4K minőséggel, Dolby Atmos hatással, intro átugrással, és a leggyorsabb betöltési sebességekkel! Nagyon ajánlott opció!"
                     },
-                    "outro": "Ha több kérdésed van, hogy ez hogyan működik, nyugodtan kérdezz a <0>M-Flix Discord</0> szerveren!",
+                    "outro": "Ha több kérdésed van, hogy ez hogyan működik, nyugodtan kérdezz a <0>M-Flix Telegram</0> szerveren!",
                     "defaultDescription": "A M-Flix beépített proxy-ját használja. A legegyszerűbb opció, de lehet lassabb a megosztozott sávszélesség miatt.",
                     "extensionDescription": "A bővítmény ad a elérhetőséget a legtöbb forráshoz. Egy lokális proxy-ként viselkedik, és tudja kezelni az olyan oldalakat, amiknek speciális sütik vagy \"header\"-ök kellenek a betöltéshez."
                 },
@@ -635,7 +635,7 @@
                 "3": "Koppints, és tartsd, vagy tartsd lenyomva a SHIFT-et a szélesképernyőért, teljes képernyő helyett!",
                 "5": "Töltsd le a bővítményt több forrásért!",
                 "9": "Vidd át a fiókod egy új backendre a beállításoknál!",
-                "10": "Csatlakozz a Discord szerverre!",
+                "10": "Csatlakozz a Telegram szerverre!",
                 "12": "Nyomd le a SPACE-t vagy a 'K'-t hogy lejátszd/megállítsd!",
                 "13": "Használd a BAL és JOBB nyilakat, hogy ugorj 5 másodpercet!",
                 "15": "Nyomd az F billenytűt, hogy ki/be kapcsold a teljes képernyőt!",
@@ -670,7 +670,7 @@
         "title": "Szupport",
         "text": "M-Flix minnél felhasználó barátabbnak van tervezve. De így is szoktak lenni kérdések, és problémák. Ez az oldal ezeknek a megoldására szolgál",
         "q1": {
-            "body": "Csatlakozhatsz a hivatalos <0>M-Flix discord</0> szerverhez, és ott kérdezhetsz, vagy írhatsz egy emailt az oldal alján található címre.",
+            "body": "Csatlakozhatsz a hivatalos <0>M-Flix Telegram</0> szerverhez, és ott kérdezhetsz, vagy írhatsz egy emailt az oldal alján található címre.",
             "title": "Hol kaphatok segítséget?"
         },
         "q2": {
@@ -683,7 +683,7 @@
         "text": "M-Flix nem került ide a semmiből, nem a fán termett, nagyrészt egy ember által lett csinálva (egy nagyon király ember által).",
         "q1": {
             "title": "Hol kaphatok segítséget?",
-            "body": "Csatlakozhatsz a hivatalos <0>M-Flix discord</0> szerverhez, és ott kérdezhetsz, vagy írhatsz egy emailt az oldal alján található címre."
+            "body": "Csatlakozhatsz a hivatalos <0>M-Flix Telegram</0> szerverhez, és ott kérdezhetsz, vagy írhatsz egy emailt az oldal alján található címre."
         },
         "q2": {
             "title": "Hol tudok jelenteni egy bugot, vagy egy hibát?",

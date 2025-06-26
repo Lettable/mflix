@@ -21,7 +21,7 @@
         },
         "q5": {
             "title": "Wie kann ich mehr herausfinden?",
-            "body": "M-Flix hat einen Discord-Server, der oben auf der Seite gefunden werden kann!"
+            "body": "M-Flix hat einen Telegram-Server, der oben auf der Seite gefunden werden kann!"
         }
     },
     "actions": {
@@ -93,7 +93,7 @@
             "disclaimerText": "M-Flix hostet keine Dateien, sondern verlinkt lediglich auf Dienste Dritter. Rechtliche Fragen sollten mit den Dateihostern und -anbietern geklärt werden. M-Flix übernimmt keine Verantwortung für die von den Videoanbietern angezeigten Mediendateien."
         },
         "links": {
-            "discord": "Discord",
+            "Telegram": "Telegram",
             "dmca": "DMCA",
             "github": "GitHub",
             "twitter": "Twitter",
@@ -304,7 +304,7 @@
                     "proxy": "2. Proxy",
                     "default": "3. Standard Einstellungen",
                     "defaultDescription": "Benützt M-Flix's eigener Proxy. Das ist die einfachste Option, kann aber aufgrund der gemeinsam genutzten Bandbreite, langsamer sein.",
-                    "outro": "Wenn du mehr Fragen hast, wie die Seite funktioniert, feel free und frag im <0>M-Flix Discord</0> Server nach!"
+                    "outro": "Wenn du mehr Fragen hast, wie die Seite funktioniert, feel free und frag im <0>M-Flix Telegram</0> Server nach!"
                 },
                 "button": "Mehr Info"
             }
@@ -496,7 +496,7 @@
                 "6": "Halte das Lesezeichen gedrückt, um sie zu verwalten oder zu löschen!",
                 "8": "Lege eine eigene Untertitelfarbe fest!",
                 "9": "Migriere dein Account zu einer neuen Backend in den Einstellungen!",
-                "10": "Tritt dem Discord bei!",
+                "10": "Tritt dem Telegram bei!",
                 "11": "Verwende Sie [ und ], um das Timing der Untertitel anzupassen!",
                 "12": "Drücke LEERTASTE oder K um Abzuspielen/Pausieren!",
                 "14": "Nutze J und L Tasten, um 10 Sekunden vor-/zurückzuspulen!",
@@ -786,7 +786,7 @@
     "support": {
         "title": "Unterstützung",
         "q1": {
-            "body": "Nun, Sie können dem offiziellen <0>M-Flix-Discord</0> beitreten und dort Fragen stellen oder Sie können eine E-Mail an den unten auf dieser Seite angegebenen mail senden.",
+            "body": "Nun, Sie können dem offiziellen <0>M-Flix-Telegram</0> beitreten und dort Fragen stellen oder Sie können eine E-Mail an den unten auf dieser Seite angegebenen mail senden.",
             "title": "Wo bekomme ich Hilfe?"
         },
         "q2": {
@@ -798,7 +798,7 @@
     "jip": {
         "q1": {
             "title": "Wo kann ich Hilfe bekommen?",
-            "body": "Nun, Sie können dem offiziellen <0>M-Flix-Discord</0> beitreten und dort Fragen stellen oder Sie können eine E-Mail an den unten auf dieser Seite angegebenen mail senden."
+            "body": "Nun, Sie können dem offiziellen <0>M-Flix-Telegram</0> beitreten und dort Fragen stellen oder Sie können eine E-Mail an den unten auf dieser Seite angegebenen mail senden."
         },
         "q2": {
             "title": "Wie kann ich einen Fehler oder ein Problem melden?",

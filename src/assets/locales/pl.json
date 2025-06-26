@@ -17,7 +17,7 @@
         "title": "O M-Flix",
         "q5": {
             "title": "Jak mogę dowiedzieć się więcej?",
-            "body": "M-Flix ma swój serwer Discord, który znajdziesz w nagłówku strony!"
+            "body": "M-Flix ma swój serwer Telegram, który znajdziesz w nagłówku strony!"
         },
         "q4": {
             "title": "Co z moimi danymi?"
@@ -92,7 +92,7 @@
             "disclaimerText": "M-Flix nie przechowuje żadnych plików, zawiera jedynie łącza do usług stron trzecich. Kwestie prawne należy konsultować z hostami plików i dostawcami. M-Flix nie ponosi odpowiedzialności za jakiekolwiek pliki multimedialne prezentowane przez dostawców wideo."
         },
         "links": {
-            "discord": "Discord",
+            "Telegram": "Telegram",
             "dmca": "DMCA",
             "github": "GitHub",
             "twitter": "Twitter"

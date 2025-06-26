@@ -21,7 +21,7 @@
         },
         "q5": {
             "title": "Wie chani me usefende?",
-            "body": "M-Flix het en Discord server, me fendet en zoberscht of de Website!"
+            "body": "M-Flix het en Telegram server, me fendet en zoberscht of de Website!"
         }
     },
     "actions": {
@@ -93,7 +93,7 @@
             "disclaimerText": "Bitte beacht: M-Flix host kei Date selber, sondern zeigt nor Inhalt vo Drittabieter a. Rechtlichi Froge sete metem Abieter klärt werde."
         },
         "links": {
-            "discord": "Discord",
+            "Telegram": "Telegram",
             "dmca": "DMCA",
             "github": "GitHub",
             "twitter": "Zwetschere",
@@ -304,7 +304,7 @@
                     "extension": "1. Erwiterig",
                     "proxy": "2. Proxy",
                     "proxyDescription": "Dr Proxy scrape Medien vo andere Websites. Er umgoh Browser-Einschränkige (wie CORS), um s’Scrape z’ermögliche.",
-                    "outro": "Wenn du meh Froge hesch, wie das funktioniert, chasch gärn uf em <0>M-Flix Discord\\</0>-Server frage!"
+                    "outro": "Wenn du meh Froge hesch, wie das funktioniert, chasch gärn uf em <0>M-Flix Telegram\\</0>-Server frage!"
                 },
                 "button": "Me Info",
                 "title": "Es Setup versto",
@@ -525,7 +525,7 @@
                 "6": "Halt Lesezeichä, um sie z'ändere oder z'lösche!",
                 "8": "Wähl en eigeni Ontertetel Farb!",
                 "9": "Migrier dis Konto zonere neue Backend i de Einstellungen!",
-                "10": "Tret em Discord bi!",
+                "10": "Tret em Telegram bi!",
                 "11": "Bruch [ und ], om d‘Ontertitel-Ziit z'ändere!",
                 "14": "Benotz J ond L zom 10 sekonde z'Skipe!",
                 "15": "Dröck F, om Vollbeld ei- oder uszschalte!",
@@ -869,7 +869,7 @@
     "support": {
         "title": "Support",
         "q1": {
-            "body": "Nun, du chasch em Officiele <0>M-Flix-Discord</0> biträte ond det Froge stelle oder du chasch en Email schecke a d‘Adresse ganz onte uf dere Site.",
+            "body": "Nun, du chasch em Officiele <0>M-Flix-Telegram</0> biträte ond det Froge stelle oder du chasch en Email schecke a d‘Adresse ganz onte uf dere Site.",
             "title": "Wo chani Helf hole?"
         },
         "q2": {
@@ -881,7 +881,7 @@
     "jip": {
         "q1": {
             "title": "Wo bechomi helf?",
-            "body": "Nun, du chasch em Officielle <0>M-Flix-Discord</0> biträte ond det Froge stelle oder en Email at adresse wo onde a dere Site esch, schribe."
+            "body": "Nun, du chasch em Officielle <0>M-Flix-Telegram</0> biträte ond det Froge stelle oder en Email at adresse wo onde a dere Site esch, schribe."
         },
         "q2": {
             "title": "Wo chani en Fehler oder en Bug mälde?",

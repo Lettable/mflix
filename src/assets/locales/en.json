@@ -33,12 +33,12 @@
     },
     "q5": {
       "title": "How can I find out more?",
-      "body": "M-Flix has a Discord server that can be found at the header of this page!",
+      "body": "M-Flix has a Telegram server that can be found at the header of this page!",
       "section": "general"
     },
     "q6": {
       "title": "Is there a M-Flix app?",
-      "body": "Not yet, but you can install it as a PWA (Progressive Web App). On iOS, use Safari → Share → Add to Home Screen. On Android, use Chrome → 3 dots → Add to Home Screen. An experimental APK is available via our Discord, but it's not recommended.",
+      "body": "Not yet, but you can install it as a PWA (Progressive Web App). On iOS, use Safari → Share → Add to Home Screen. On Android, use Chrome → 3 dots → Add to Home Screen. An experimental APK is available via our Telegram, but it's not recommended.",
       "section": "general"
     },
     "q7": {
@@ -103,7 +103,7 @@
     },
     "q20": {
       "title": "What is FED API?",
-      "body": "FED API is our private scraper that pulls streams directly from Febbox. Each free Febbox account includes 100 GB/month of unlimited bandwidth, and we use your UI token to scrape content as if you're watching it yourself. Setup is easiest via desktop browser, but mobile instructions are available on our Discord.",
+      "body": "FED API is our private scraper that pulls streams directly from Febbox. Each free Febbox account includes 100 GB/month of unlimited bandwidth, and we use your UI token to scrape content as if you're watching it yourself. Setup is easiest via desktop browser, but mobile instructions are available on our Telegram.",
       "section": "connections"
     },
     "q21": {
@@ -207,7 +207,7 @@
       "disclaimerText": "Please note: M-Flix does not host any files itself but instead only display's content from 3rd party providers. Legal issues should be taken up with them."
     },
     "links": {
-      "discord": "Discord",
+      "Telegram": "Telegram",
       "dmca": "DMCA",
       "github": "GitHub",
       "twitter": "Twitter",
@@ -534,7 +534,7 @@
             "fedapi": "Additional: FED API (Private) token",
             "fedapiDescription": "Bring your own FREE Febbox account to gain access to FED API (Private), the best source with 4K quality, Dolby Atmos, skip intro and the fastest load times! Highly recommended option!"
           },
-          "outro": "If you have more questions on how this works, feel free to ask on the <0>M-Flix Discord</0> server!"
+          "outro": "If you have more questions on how this works, feel free to ask on the <0>M-Flix Telegram</0> server!"
         },
         "recommended": {
           "title": "Not sure what to choose?",
@@ -771,7 +771,7 @@
         "7": "Hold SHIFT and tap the title to copy the link with time!",
         "8": "Set a custom subtitle color!",
         "9": "Migrate your account to a new backend in settings!",
-        "10": "Join the Discord!",
+        "10": "Join the Telegram!",
         "11": "Use [ and ] to adjust subtitle timing!",
         "12": "Press SPACE or K to play/pause!",
         "13": "Use LEFT and RIGHT arrow keys to skip 5 seconds!",
@@ -802,7 +802,7 @@
     "title": "Support",
     "text": "M-Flix is designed to be as user-friendly as possible. However, people still have questions and issues. This page is here to help resolve these shortcomings",
     "q1": {
-      "body": "Well, you can join the official <0>M-Flix discord</0> and ask questions there or you can email the one provided at the bottom of this page.",
+      "body": "Well, you can join the official <0>M-Flix Telegram</0> and ask questions there or you can email the one provided at the bottom of this page.",
       "title": "Where can I get help?"
     },
     "q2": {
@@ -814,7 +814,7 @@
     "title": "Jip",
     "text": "M-Flix didn't fall out of a coconut tree, it was made mostly by a single person (a very epic one at that).",
     "q1": {
-      "body": "Well, you can join the official <0>M-Flix discord</0> and ask questions there or you can email the one provided at the bottom of this page.",
+      "body": "Well, you can join the official <0>M-Flix Telegram</0> and ask questions there or you can email the one provided at the bottom of this page.",
       "title": "Where can I get help?"
     },
     "q2": {

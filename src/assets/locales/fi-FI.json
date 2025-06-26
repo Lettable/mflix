@@ -20,7 +20,7 @@
             "title": "Entä tietoni ja muut asiat?"
         },
         "q5": {
-            "body": "M-Flixilla on Discord-palvelin, jonka löydät tämän sivun yläosasta!",
+            "body": "M-Flixilla on Telegram-palvelin, jonka löydät tämän sivun yläosasta!",
             "title": "Miten voin saada lisätietoa?"
         }
     },
@@ -93,7 +93,7 @@
             "disclaimerText": "M-Flix ei isännöi tiedostoja, se vain linkittää kolmannen osapuolen palveluihin. Lakiasioista tulee ottaa yhteyttä tiedostoisäntään ja palveluntarjoajiin. M-Flix ei ole vastuussa videontarjoajien näyttämistä mediatiedostoista."
         },
         "links": {
-            "discord": "Discord",
+            "Telegram": "Telegram",
             "dmca": "DMCA",
             "github": "GitHub",
             "twitter": "Twitter",

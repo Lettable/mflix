@@ -20,7 +20,7 @@
             "title": "Peki ya benim verileri ve bilgilerim?"
         },
         "q5": {
-            "body": "M-Flix’in bir Discord sunucusu var, sayfanın en üst kısmına bak!",
+            "body": "M-Flix’in bir Telegram sunucusu var, sayfanın en üst kısmına bak!",
             "title": "Daha fazlasını nasıl bulabilirim?"
         }
     },
@@ -93,7 +93,7 @@
             "disclaimerText": "M-Flix herhangi bir dosya barındırmaz, yalnızca 3. parti hizmetlere bağlantı verir. Yasal meseleler, dosya barındırıcıları ve sağlayıcıları ile görüşülmelidir. M-Flix, video sağlayıcıları tarafından gösterilen hiçbir medya dosyasından sorumlu değildir."
         },
         "links": {
-            "discord": "Discord",
+            "Telegram": "Telegram",
             "dmca": "DMCA",
             "github": "GitHub",
             "twitter": "Twitter",

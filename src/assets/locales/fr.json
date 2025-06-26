@@ -20,7 +20,7 @@
             "title": "Qu'en est-il de mes données ?"
         },
         "q5": {
-            "body": "M-Flix possède un serveur Discord qui peut être trouvé en-tête de page !",
+            "body": "M-Flix possède un serveur Telegram qui peut être trouvé en-tête de page !",
             "title": "Comment puis-je en savoir plus ?"
         }
     },
@@ -93,7 +93,7 @@
             "disclaimerText": "M-Flix ne stocke pas de fichiers, mais propose des liens vers des services externes. Les problèmes juridiques doivent être traités avec les fournisseurs et les hébergeurs de fichiers. Les fichiers multimédias diffusés par les fournisseurs de vidéos ne sont pas couverts par M-Flix."
         },
         "links": {
-            "discord": "Discord",
+            "Telegram": "Telegram",
             "dmca": "DMCA",
             "github": "GitHub",
             "twitter": "Twitter",
@@ -313,7 +313,7 @@
                         "fedapi": "Optionnel : jeton API FED (privé)",
                         "fedapiDescription": "Connectez votre propre compte gratuit Febbox pour accéder à l’API FED (privée), la meilleure source avec qualité 4K, Dolby Atmos, fonction sauter l’intro et des temps de chargement ultra rapides! Cette option est fortement recommandée."
                     },
-                    "outro": "Si vous avez d’autres questions sur le fonctionnement, n’hésitez pas à les poser sur le serveur <0>Discord de M-Flix</0> !",
+                    "outro": "Si vous avez d’autres questions sur le fonctionnement, n’hésitez pas à les poser sur le serveur <0>Telegram de M-Flix</0> !",
                     "extension": "1. Extension",
                     "options": "Vos Options :",
                     "proxy": "2. Proxy",
@@ -507,7 +507,7 @@
             "tips": {
                 "20": "Appuyez sur C pour activer ou désactiver les sous-titres !",
                 "8": "Personnalisez la couleur des sous-titres !",
-                "10": "Rejoignez le Discord !"
+                "10": "Rejoignez le Telegram !"
             }
         },
         "time": {
@@ -944,7 +944,7 @@
         "text": "M-Flix a été conçu pour être aussi simple et intuitif que possible. Cependant, il est normal que des questions ou des problèmes surviennent. Cette page est là pour vous aider à y répondre et à résoudre ces difficultés.",
         "title": "Centre d’aide",
         "q1": {
-            "body": "Vous pouvez rejoindre le <0>Discord officiel de M-Flix</0> pour poser vos questions, ou envoyer un e-mail à l’adresse indiquée en bas de cette page.",
+            "body": "Vous pouvez rejoindre le <0>Telegram officiel de M-Flix</0> pour poser vos questions, ou envoyer un e-mail à l’adresse indiquée en bas de cette page.",
             "title": "Où puis-je obtenir de l’aide ?"
         }
     },

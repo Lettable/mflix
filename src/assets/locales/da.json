@@ -18,7 +18,7 @@
             "body": "Alle oplysninger synkroniseres til sudo-backend, som er anderledes end community-backend og hostes selvstændigt af mig, men alle er velkomne til at bruge den."
         },
         "q5": {
-            "body": "M-Flix har en Discord server, som kan findes i toppen af den side!",
+            "body": "M-Flix har en Telegram server, som kan findes i toppen af den side!",
             "title": "Hvordan kan jeg finde ud af mere?"
         },
         "title": "Om M-Flix (^▽^)",
@@ -93,7 +93,7 @@
             "disclaimerText": "Bemærk: M-Flix hoster ikke selv nogen filer, men viser i stedet kun indhold fra tredjepartsudbydere. Lovmæssige forhold bør afklares med dem."
         },
         "links": {
-            "discord": "Discord",
+            "Telegram": "Telegram",
             "dmca": "DMCA",
             "github": "GitHub",
             "twitter": "Twitter"
@@ -471,7 +471,7 @@
     "support": {
         "title": "Support",
         "q1": {
-            "body": "Du kan deltage i den officielle <0>M-Flix discord</0> og stille spørgsmål der, eller du kan sende en e-mail til den, der er angivet nederst på denne side.",
+            "body": "Du kan deltage i den officielle <0>M-Flix Telegram</0> og stille spørgsmål der, eller du kan sende en e-mail til den, der er angivet nederst på denne side.",
             "title": "Hvor kan jeg få hjælp?"
         },
         "q2": {
