@@ -93,7 +93,7 @@
             "disclaimerText": "M-Flix no aloja ningún archivo, simplemente enlaza a servicios de terceros. Los problemas legales deben ser tratados con los proveedores de archivos y servicios. M-Flix no se hace responsable de los archivos multimedia mostrados por los proveedores de vídeo."
         },
         "links": {
-            "Telegram": "Telegram",
+            "telegram": "Telegram",
             "dmca": "DMCA",
             "github": "GitHub",
             "twitter": "Twitter",

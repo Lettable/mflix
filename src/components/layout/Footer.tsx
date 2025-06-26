@@ -74,7 +74,7 @@ export function Footer() {
         </div>
         <div className="flex flex-wrap gap-[0.5rem] -ml-3">
           <FooterLink icon={Icons.TELEGRAM} href={conf().TELEGRAM_LINK}>
-            {t("footer.links.discord")}
+            {t("footer.links.telegram")}
           </FooterLink>
           <FooterLink href="https://t.me/ig_fk" icon={Icons.TIP_JAR}>
             {t("footer.links.funding")}

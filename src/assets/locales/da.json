@@ -93,7 +93,7 @@
             "disclaimerText": "Bemærk: M-Flix hoster ikke selv nogen filer, men viser i stedet kun indhold fra tredjepartsudbydere. Lovmæssige forhold bør afklares med dem."
         },
         "links": {
-            "Telegram": "Telegram",
+            "telegram": "Telegram",
             "dmca": "DMCA",
             "github": "GitHub",
             "twitter": "Twitter"

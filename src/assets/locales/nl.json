@@ -93,7 +93,7 @@
             "disclaimerText": "M-Flix host geen bestanden, maar linkt alleen naar diensten van derden. Juridische kwesties moeten worden opgenomen met de bestandshosts en providers. M-Flix is niet verantwoordelijk voor mediabestanden die worden getoond door de videoproviders."
         },
         "links": {
-            "Telegram": "Telegram",
+            "telegram": "Telegram",
             "dmca": "DMCA",
             "github": "Github",
             "twitter": "Twitter / X"

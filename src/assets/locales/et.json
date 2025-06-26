@@ -85,7 +85,7 @@
             "disclaimerText": "M-Flix ei hoiusta ühtegi faili, vaid ainult lingib kolmandate osapoolte teenustele. Juriidilised küsimused tuleks lahendada failihostide ja teenusepakkujatega. M-Flix ei vastuta videopakkujate poolt näidatud meediafailide eest."
         },
         "links": {
-            "Telegram": "Telegram",
+            "telegram": "Telegram",
             "dmca": "DMCA",
             "github": "GitHub"
         },

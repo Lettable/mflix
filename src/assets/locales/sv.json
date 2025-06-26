@@ -82,7 +82,7 @@
             "disclaimerText": "M-Flix hostar inga filer utan länkar endast till filer från tredje part. Eventuella juridiska frågor bör tas upp med källorna till materialet. M-Flix varken ansvarar eller styr över de mediefiler som visas."
         },
         "links": {
-            "Telegram": "Telegram",
+            "telegram": "Telegram",
             "dmca": "DMCA",
             "github": "GitHub"
         },

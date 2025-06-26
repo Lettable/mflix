@@ -93,7 +93,7 @@
             "disclaimerText": "Felhívjuk figyelmedet, hogy a M-Flix nem tárol fájlokat, hanem csak harmadik fél szolgáltatóinak tartalmát jeleníti meg. Jogi kérdésekkel közvetlenül hozzájuk kell fordulni."
         },
         "links": {
-            "Telegram": "Telegram",
+            "telegram": "Telegram",
             "dmca": "DMCA",
             "github": "GitHub",
             "twitter": "Twitter",

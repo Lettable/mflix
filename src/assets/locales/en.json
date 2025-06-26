@@ -207,7 +207,7 @@
       "disclaimerText": "Please note: M-Flix does not host any files itself but instead only display's content from 3rd party providers. Legal issues should be taken up with them."
     },
     "links": {
-      "Telegram": "Telegram",
+      "telegram": "Telegram",
       "dmca": "DMCA",
       "github": "GitHub",
       "twitter": "Twitter",

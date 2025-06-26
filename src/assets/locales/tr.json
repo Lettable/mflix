@@ -93,7 +93,7 @@
             "disclaimerText": "M-Flix herhangi bir dosya barındırmaz, yalnızca 3. parti hizmetlere bağlantı verir. Yasal meseleler, dosya barındırıcıları ve sağlayıcıları ile görüşülmelidir. M-Flix, video sağlayıcıları tarafından gösterilen hiçbir medya dosyasından sorumlu değildir."
         },
         "links": {
-            "Telegram": "Telegram",
+            "telegram": "Telegram",
             "dmca": "DMCA",
             "github": "GitHub",
             "twitter": "Twitter",

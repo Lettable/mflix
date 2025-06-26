@@ -93,7 +93,7 @@
             "disclaimerText": "请注意：M-Flix 本身不托管任何文件，只提供第三方提供商的内容。如有法律问题，请与它们联系。"
         },
         "links": {
-            "Telegram": "Telegram",
+            "telegram": "Telegram",
             "dmca": "DMCA",
             "github": "GitHub",
             "twitter": "X (Formerly Twitter)"
