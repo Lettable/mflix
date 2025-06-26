@@ -295,7 +295,7 @@ export function LinksDropdown(props: { children: React.ReactNode }) {
           <div className="my-4 flex justify-center items-center gap-4">
             <CircleDropdownLink
               href={conf().TELEGRAM_LINK}
-              icon={Icons.TELEGRAM_LINK}
+              icon={Icons.TELEGRAM}
             />
             <CircleDropdownLink href="/support" icon={Icons.SUPPORT} />
             <CircleDropdownLink
