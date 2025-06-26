@@ -81,31 +81,31 @@ function MediaCardContent({
 
   return (
     <Flare.Base
-      className={`group -m-[0.705em] rounded-xl bg-background-main transition-colors duration-150 ease-out focus:relative focus:z-10 ${
+      className={`group -m-[0.705em] rounded-xl bg-background-main transition-colors duration-200 focus:relative focus:z-10 ${
         canLink ? "hover:bg-mediaCard-hoverBackground tabbable" : ""
       }`}
       tabIndex={canLink ? 0 : -1}
       onKeyUp={(e) => e.key === "Enter" && e.currentTarget.click()}
     >
       <Flare.Light
-        flareSize={300}
+        flareSize={200}
         cssColorVar="--colors-mediaCard-hoverAccent"
-        backgroundClass="bg-mediaCard-hoverBackground duration-100"
-        className={classNames({
+        backgroundClass="bg-mediaCard-hoverBackground duration-75"
+        className={classNames("will-change-[transform,opacity]", {
           "rounded-xl bg-background-main group-hover:opacity-100": canLink,
         })}
       />
       <Flare.Child
-        className={`pointer-events-auto relative mb-2 p-[0.4em] transition-transform duration-150 ease-out ${
+        className={`pointer-events-auto relative mb-2 p-[0.4em] transition-transform duration-200 ease-[cubic-bezier(0.2,0,0,1)] will-change-transform ${
           canLink ? "group-hover:scale-95" : "opacity-60"
         }`}
       >
         <div
           className={classNames(
-            "relative mb-4 pb-[150%] w-full overflow-hidden rounded-xl bg-mediaCard-hoverBackground bg-cover bg-center transition-[border-radius] duration-150 ease-out",
+            "relative mb-4 pb-[150%] w-full overflow-hidden rounded-xl bg-mediaCard-hoverBackground bg-cover bg-center transition-[border-radius] duration-200 will-change-transform",
             {
               "group-hover:rounded-lg": canLink,
-            },
+            }
           )}
           style={{
             backgroundImage: media.poster
