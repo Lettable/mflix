@@ -99,7 +99,7 @@ function MediaCardContent({
 
   return (
     <>
-      <style jsx>{`
+      <style>{`
         .movie-card {
           --mouse-x: center;
           --mouse-y: center;
