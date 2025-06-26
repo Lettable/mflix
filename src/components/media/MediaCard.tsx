@@ -102,10 +102,11 @@ function MediaCardContent({
       >
         <div
           className={classNames(
-            "relative mb-4 pb-[150%] w-full overflow-hidden rounded-xl bg-mediaCard-hoverBackground bg-cover bg-center transition-all duration-700 ease-in-out",
+            "relative mb-4 pb-[150%] w-full overflow-hidden rounded-xl bg-mediaCard-hoverBackground bg-cover bg-center transition-[border-radius] duration-150 ease-out",
             {
               "group-hover:rounded-lg": canLink,
-            },absolute inset-x-0 -bottom-px
+            },
+            "absolute inset-x-0 -bottom-px"
           )}
           style={{
             backgroundImage: media.poster
