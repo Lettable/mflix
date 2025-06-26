@@ -88,7 +88,7 @@ function MediaCardContent({
       onKeyUp={(e) => e.key === "Enter" && e.currentTarget.click()}
     >
       <Flare.Light
-        flareSize={200}
+        flareSize={5}
         cssColorVar="--colors-mediaCard-hoverAccent"
         backgroundClass="bg-mediaCard-hoverBackground duration-300 ease-[cubic-bezier(0.4,0,0.2,1)]"
         className={classNames({
