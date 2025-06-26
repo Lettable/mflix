@@ -7,7 +7,6 @@ import { Link } from "react-router-dom";
 
 import { mediaItemToId } from "@/backend/metadata/tmdb";
 import { DotList } from "@/components/text/DotList";
-import { Flare } from "@/components/utils/Flare";
 import { useSearchQuery } from "@/hooks/useSearchQuery";
 import { usePreferencesStore } from "@/stores/preferences";
 import { MediaItem } from "@/utils/mediaTypes";
