@@ -40,8 +40,8 @@ importers:
         specifier: ^0.7.2
         version: 0.7.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@movie-web/providers':
-        specifier: github:p-stream/providers#production
-        version: https://codeload.github.com/p-stream/providers/tar.gz/06777a2580e5b41ee97f7c06d712eb188ee6f41b
+        specifier: github:Lettable/providers#production
+        version: https://codeload.github.com/Lettable/providers/tar.gz/c771f3f8adac77caec0f0ff5ea6bee1824624385
       '@noble/hashes':
         specifier: ^1.8.0
         version: 1.8.0
