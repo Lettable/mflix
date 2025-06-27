@@ -1,0 +1,31 @@
+name: Update pnpm Lockfile
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update-lockfile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 22
+          cache: 'pnpm'
+
+      - name: Setup pnpm
+        run: npm install -g pnpm@9
+
+      - name: Install dependencies (update lockfile)
+        run: pnpm install
+
+      - name: Commit lockfile update
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add pnpm-lock.yaml
+          git diff --quiet && echo "No changes in lockfile" || git commit -m "chore: update pnpm lockfile"
+          git push
