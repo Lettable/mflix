@@ -29,7 +29,7 @@ import { MigrationDirectPage } from "@/pages/migration/MigrationDirect";
 import { MigrationDownloadPage } from "@/pages/migration/MigrationDownload";
 import { MigrationUploadPage } from "@/pages/migration/MigrationUpload";
 import { OnboardingPage } from "@/pages/onboarding/Onboarding";
-import { PgpPage } from "@/pages/PgpPage";
+import PgpPage from "@/pages/PgpPage";
 import { OnboardingExtensionPage } from "@/pages/onboarding/OnboardingExtension";
 import { OnboardingProxyPage } from "@/pages/onboarding/OnboardingProxy";
 import { RegisterPage } from "@/pages/Register";
