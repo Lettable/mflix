@@ -1,4 +1,4 @@
-const PgpPage = () => {
+function PgpPage() {
   return (
     <pre style={{ whiteSpace: "pre-wrap", wordBreak: "break-word" }}>
 {`
