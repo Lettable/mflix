@@ -1,26 +1,26 @@
 {
     "about": {
-        "description": "M-Flix internette akışlar için tarama yapan bir web uygulamasıdır. Ekip, içerik tüketmeye karşı ekseriyetle minimalist bir yaklaşım sergilemektedir.",
+        "description": "Suized internette akışlar için tarama yapan bir web uygulamasıdır. Ekip, içerik tüketmeye karşı ekseriyetle minimalist bir yaklaşım sergilemektedir.",
         "faqTitle": "Sıkça sorulan sorular",
         "q1": {
-            "body": "M-Flix herhangi bir içerik barındırmaz. İzlemek için bir şeye tıkladığınızda, seçilen medya için internette arama yapılır (Yükleme ekranında ve 'video kaynakları' sekmesinde hangi kaynağı kullandığınızı görebilirsiniz). Medya hiçbir zaman M-Flix tarafından yüklenmez, her şey bu arama mekanizması aracılığıyla gerçekleşir.",
+            "body": "Suized herhangi bir içerik barındırmaz. İzlemek için bir şeye tıkladığınızda, seçilen medya için internette arama yapılır (Yükleme ekranında ve 'video kaynakları' sekmesinde hangi kaynağı kullandığınızı görebilirsiniz). Medya hiçbir zaman Suized tarafından yüklenmez, her şey bu arama mekanizması aracılığıyla gerçekleşir.",
             "title": "İçerikler nereden geliyor?"
         },
         "q2": {
-            "body": "Bir dizi veya film talep etmek mümkün değildir, M-Flix içeriklerin hiçbirini yönetmez. Tüm içerikler internet üzerindeki kaynaklar aracılığıyla görüntülenir.",
+            "body": "Bir dizi veya film talep etmek mümkün değildir, Suized içeriklerin hiçbirini yönetmez. Tüm içerikler internet üzerindeki kaynaklar aracılığıyla görüntülenir.",
             "title": "Bir dizi veya filmi nereden talep edebilirim?"
         },
         "q3": {
             "body": "Arama sonuçlarımız The Movie Database (TMDB) tarafından desteklenmektedir ve kaynaklarımızın içeriğe gerçekten sahip olup olmadığına bakılmaksızın görüntülenir.",
             "title": "Arama sonuçları diziyi veya filmi gösteriyor, neden oynatamıyorum?"
         },
-        "title": "M-Flix hakkında",
+        "title": "Suized hakkında",
         "q4": {
             "body": "Tüm veriler topluluk sunucusuyla senkronize edilir, isteyen herkes bunu kullanmakta özgürdür.",
             "title": "Peki ya benim verileri ve bilgilerim?"
         },
         "q5": {
-            "body": "M-Flix’in bir Telegram sunucusu var, sayfanın en üst kısmına bak!",
+            "body": "Suized’in bir Telegram sunucusu var, sayfanın en üst kısmına bak!",
             "title": "Daha fazlasını nasıl bulabilirim?"
         }
     },
@@ -90,7 +90,7 @@
     "footer": {
         "legal": {
             "disclaimer": "Sorumluluk Reddi",
-            "disclaimerText": "M-Flix herhangi bir dosya barındırmaz, yalnızca 3. parti hizmetlere bağlantı verir. Yasal meseleler, dosya barındırıcıları ve sağlayıcıları ile görüşülmelidir. M-Flix, video sağlayıcıları tarafından gösterilen hiçbir medya dosyasından sorumlu değildir."
+            "disclaimerText": "Suized herhangi bir dosya barındırmaz, yalnızca 3. parti hizmetlere bağlantı verir. Yasal meseleler, dosya barındırıcıları ve sağlayıcıları ile görüşülmelidir. Suized, video sağlayıcıları tarafından gösterilen hiçbir medya dosyasından sorumlu değildir."
         },
         "links": {
             "telegram": "Telegram",
@@ -102,13 +102,13 @@
         "tagline": "Bu açık kaynaklı akış uygulamasıyla en sevdiğiniz dizileri ve filmleri izleyin."
     },
     "global": {
-        "name": "M-Flix",
+        "name": "Suized",
         "pages": {
             "about": "Hakkında",
             "dmca": "DMCA",
             "login": "Giriş yap",
             "onboarding": "Kur",
-            "pagetitle": "{{title}} - M-Flix",
+            "pagetitle": "{{title}} - Suized",
             "register": "Kayıt ol",
             "settings": "Ayarlar",
             "discover": "Keşfet",
@@ -142,7 +142,7 @@
                     "Bugün izleme listende neler var?",
                     "Günün nasıldı?",
                     "Benim hatam, site hiç çalışmıyor zaten...",
-                    "M-Flix en iyisi değil mi ya?",
+                    "Suized en iyisi değil mi ya?",
                     ">ᴗ<"
                 ]
             },
@@ -285,7 +285,7 @@
                     "title": "Özel Proxy"
                 }
             },
-            "title": "M-Flix ile sizi hazır hale getirelim"
+            "title": "Suized ile sizi hazır hale getirelim"
         }
     },
     "overlays": {
@@ -302,10 +302,10 @@
         "menus": {
             "downloads": {
                 "copyHlsPlaylist": "HLS oynatma listesi bağlantısını kopyala",
-                "disclaimer": "İndirme bağlantıları doğrudan sağlayıcının kendisinden alınır. M-Flix'in sağlanan indirme bağlantıları üzerinde hiçbir konrolü yoktur.",
+                "disclaimer": "İndirme bağlantıları doğrudan sağlayıcının kendisinden alınır. Suized'in sağlanan indirme bağlantıları üzerinde hiçbir konrolü yoktur.",
                 "downloadSubtitle": "Geçerli altyazıyı indir",
                 "downloadVideo": "Videoyu indir",
-                "hlsDisclaimer": "İndirmeler doğrudan sağlayıcıdan alınır. M-Flix, indirmelerin nasıl sağlanacağı üzerinde kontrole sahip değildir.<br /><br />Lütfen bir HLS oynatma listesi indirdiğinizi unutmayın; <bold>ileri seviye bilginiz yoksa indirmeniz önerilmez. akış biçimleri</bold>. Farklı formatlar için farklı kaynakları deneyin.",
+                "hlsDisclaimer": "İndirmeler doğrudan sağlayıcıdan alınır. Suized, indirmelerin nasıl sağlanacağı üzerinde kontrole sahip değildir.<br /><br />Lütfen bir HLS oynatma listesi indirdiğinizi unutmayın; <bold>ileri seviye bilginiz yoksa indirmeniz önerilmez. akış biçimleri</bold>. Farklı formatlar için farklı kaynakları deneyin.",
                 "onAndroid": {
                     "1": "Android'e indirmek için önce indir butonuna basın, sonra açılan yeni sayfada video üzerine <bold>basılı tutun</bold>, ardından <bold>Videoyu indir</bold> seçeneğini seçin.",
                     "shortTitle": "İndir / Android",
@@ -433,7 +433,7 @@
                 "badge": "Eklenti devre dışı",
                 "enableExtension": "Eklentiyi etkinleştir",
                 "homeButton": "Eve git",
-                "text": "M-Flix uzantısını kurdunuz. Kullanmaya başlamak için, uzantıyı bu site için etkinleştirmeniz gerekiyor.",
+                "text": "Suized uzantısını kurdunuz. Kullanmaya başlamak için, uzantıyı bu site için etkinleştirmeniz gerekiyor.",
                 "title": "Lütfen eklentiyi etkinleştirin"
             },
             "items": {
@@ -456,7 +456,7 @@
             "shortRemaining": "-{{timeLeft}}"
         },
         "turnstile": {
-            "description": "Lütfen sağ taraftaki Captcha'yı çözerek insan olduğunuzu doğrulayın. Bu, M-Flix'i güvende tutmak içindir!",
+            "description": "Lütfen sağ taraftaki Captcha'yı çözerek insan olduğunuzu doğrulayın. Bu, Suized'i güvende tutmak içindir!",
             "error": "İnsan olduğunuz doğrulanamadı. Lütfen tekrar deneyin.",
             "title": "İnsan olduğunuzu doğrulamamız gerekiyor.",
             "verifyingHumanity": "İnsan olduğunuz doğrulanıyor..."

@@ -3,10 +3,10 @@
         "faqTitle": "Gyakori kérdések",
         "q1": {
             "title": "Honnan jön a tartalom?",
-            "body": "M-Flix nem tárol semmilyen tartalmat. Amikor valamit megakarsz nézni, az internetet átfésüljök a kiválasztott médiáért (A töltőképernyőn, és a 'video források' fülön láthatod, hogy melyik forrást használod). Média, tartalom soha nincs feltöltve M-Flix által, minden ezen a keresési mechanizmuson keresztül történik."
+            "body": "Suized nem tárol semmilyen tartalmat. Amikor valamit megakarsz nézni, az internetet átfésüljök a kiválasztott médiáért (A töltőképernyőn, és a 'video források' fülön láthatod, hogy melyik forrást használod). Média, tartalom soha nincs feltöltve Suized által, minden ezen a keresési mechanizmuson keresztül történik."
         },
         "q2": {
-            "body": "Nem lehetséges filmet vagy sorozatot kérni, M-Flix nem kezel semmilyen tartalmat. Az összes tartalom különböző internetes forrásokon keresztül tekinthető meg.",
+            "body": "Nem lehetséges filmet vagy sorozatot kérni, Suized nem kezel semmilyen tartalmat. Az összes tartalom különböző internetes forrásokon keresztül tekinthető meg.",
             "title": "Hol tudok filmet vagy sorozatot kérni?"
         },
         "q3": {
@@ -19,10 +19,10 @@
         },
         "q5": {
             "title": "Hol tudhatok meg többet?",
-            "body": "Van a M-Flix-nek egy Telegram szervere, amit megtalálhatsz ennek az oldalnak a fejlécén!"
+            "body": "Van a Suized-nek egy Telegram szervere, amit megtalálhatsz ennek az oldalnak a fejlécén!"
         },
-        "title": "M-Flix-ről",
-        "description": "M-Flix egy mellékágja(forkja) a movie-webnek, amelynek fennmaradása biztosítva van a movie-web.app leállása után is. M-Flix egy privát, \"self-hosted\" VPS-en fut. Az oldalt veszteségesen futtatom;nincsenek reklámok a szabad/ingyenes médiában való hitem miatt."
+        "title": "Suized-ről",
+        "description": "Suized egy mellékágja(forkja) a movie-webnek, amelynek fennmaradása biztosítva van a movie-web.app leállása után is. Suized egy privát, \"self-hosted\" VPS-en fut. Az oldalt veszteségesen futtatom;nincsenek reklámok a szabad/ingyenes médiában való hitem miatt."
     },
     "actions": {
         "copied": "Kimásolva",
@@ -90,7 +90,7 @@
     "footer": {
         "legal": {
             "disclaimer": "Figyelmeztetés",
-            "disclaimerText": "Felhívjuk figyelmedet, hogy a M-Flix nem tárol fájlokat, hanem csak harmadik fél szolgáltatóinak tartalmát jeleníti meg. Jogi kérdésekkel közvetlenül hozzájuk kell fordulni."
+            "disclaimerText": "Felhívjuk figyelmedet, hogy a Suized nem tárol fájlokat, hanem csak harmadik fél szolgáltatóinak tartalmát jeleníti meg. Jogi kérdésekkel közvetlenül hozzájuk kell fordulni."
         },
         "links": {
             "telegram": "Telegram",
@@ -102,7 +102,7 @@
         "tagline": "Nézd a kedvenc filmeidet és sorozataidat ingyen, örökké reklámmentesen!"
     },
     "global": {
-        "name": "M-Flix",
+        "name": "Suized",
         "pages": {
             "about": "Rólunk",
             "dmca": "DMCA",
@@ -110,7 +110,7 @@
             "support": "Szupport",
             "login": "Bejelentkezés",
             "onboarding": "Előkészítés",
-            "pagetitle": "{{title}} - M-Flix",
+            "pagetitle": "{{title}} - Suized",
             "settings": "Beállítások",
             "migration": "Fiók átvitele",
             "jip": "Jip",
@@ -134,11 +134,11 @@
                     "Mihez van kedved?",
                     "Kitöröljük a böngészési előzményeidet?",
                     "Mit akarsz streamelni?",
-                    "M-Flix mindenidők legjobb oldala!",
+                    "Suized mindenidők legjobb oldala!",
                     "Mi van a nézési listádon ma?",
                     "Milyen volt a napod?",
                     "A francba, bocsi, az én hibám, hogy soha se működik az oldal...",
-                    "Ugye, hogy a M-Flix a legjobb?",
+                    "Ugye, hogy a Suized a legjobb?",
                     "UwU"
                 ]
             },
@@ -164,20 +164,20 @@
         "titles": {
             "day": {
                 "extra": [
-                    "Viva la M-Flix!"
+                    "Viva la Suized!"
                 ],
                 "default": "Mit szeretnél nézni e délután?"
             },
             "morning": {
                 "default": "Mit szeretnél nézni e reggelen?",
                 "extra": [
-                    "Viva la M-Flix!"
+                    "Viva la Suized!"
                 ]
             },
             "night": {
                 "default": "Mit szeretnél nézni ezen az estén?",
                 "extra": [
-                    "Viva la M-Flix!"
+                    "Viva la Suized!"
                 ]
             },
             "420": {
@@ -341,7 +341,7 @@
         "badge": "Hibák",
         "goHome": "Kezdőlapra",
         "title": "Tartalomszolgáltatói problémák",
-        "message": "M-Flix hiábakt tapasztal néhány szolgáltatóval megint, ha nem találsz, vagy nem tudsz lejátszani egy sorozatot, változtass forrást. Az alábbi időszakokban ez a hiba várhatóan fennmarad."
+        "message": "Suized hiábakt tapasztal néhány szolgáltatóval megint, ha nem találsz, vagy nem tudsz lejátszani egy sorozatot, változtass forrást. Az alábbi időszakokban ez a hiba várhatóan fennmarad."
     },
     "onboarding": {
         "defaultConfirm": {
@@ -389,7 +389,7 @@
                 "button": "Több információ",
                 "title": "Egy beállítás megértése",
                 "explainer": {
-                    "intro": "M-Flix nem hosztol, se nem tárol videókat. Harmadik felekre hagyatkozik a tartalmakért, ezért ki kell választanod, hogy hogyan kapcsolódjon azokhoz az oldalakhoz.",
+                    "intro": "Suized nem hosztol, se nem tárol videókat. Harmadik felekre hagyatkozik a tartalmakért, ezért ki kell választanod, hogy hogyan kapcsolódjon azokhoz az oldalakhoz.",
                     "options": "A beállításaid:",
                     "extension": "1. Bővítmény",
                     "proxy": "2. Proxy",
@@ -399,8 +399,8 @@
                         "fedapi": "Továbbiak: FED API (privát) token",
                         "fedapiDescription": "Hozd az INGYENES Febbox fioókodat, hogy hozzáférést nyerj a FED API (privát-hoz), a legjobb forrás 4K minőséggel, Dolby Atmos hatással, intro átugrással, és a leggyorsabb betöltési sebességekkel! Nagyon ajánlott opció!"
                     },
-                    "outro": "Ha több kérdésed van, hogy ez hogyan működik, nyugodtan kérdezz a <0>M-Flix Telegram</0> szerveren!",
-                    "defaultDescription": "A M-Flix beépített proxy-ját használja. A legegyszerűbb opció, de lehet lassabb a megosztozott sávszélesség miatt.",
+                    "outro": "Ha több kérdésed van, hogy ez hogyan működik, nyugodtan kérdezz a <0>Suized Telegram</0> szerveren!",
+                    "defaultDescription": "A Suized beépített proxy-ját használja. A legegyszerűbb opció, de lehet lassabb a megosztozott sávszélesség miatt.",
                     "extensionDescription": "A bővítmény ad a elérhetőséget a legtöbb forráshoz. Egy lokális proxy-ként viselkedik, és tudja kezelni az olyan oldalakat, amiknek speciális sütik vagy \"header\"-ök kellenek a betöltéshez."
                 },
                 "recommended": {
@@ -439,7 +439,7 @@
                 }
             },
             "explainer": "A legjobb sztreamekért, ki kell választanod, hogy melyik sztreamelési módot akarod használni.",
-            "title": "Állítsuk be neked a M-Flix-et"
+            "title": "Állítsuk be neked a Suized-et"
         }
     },
     "overlays": {
@@ -456,7 +456,7 @@
         "menus": {
             "downloads": {
                 "button": "Letöltés megpróbálása",
-                "disclaimer": "A letöltések közvetlen a szolgáltatótól jönnek. M-Flix-nek nincs befolyása, hogy a letöltés hogyan van kínálva.",
+                "disclaimer": "A letöltések közvetlen a szolgáltatótól jönnek. Suized-nek nincs befolyása, hogy a letöltés hogyan van kínálva.",
                 "copyHlsPlaylist": "HLS lejátszási lista link másolása",
                 "downloadSubtitle": "Jelenlegi felirat letöltése",
                 "downloadVideo": "Videó letöltése",
@@ -477,7 +477,7 @@
                 },
                 "title": "Letöltés",
                 "hlsDownloader": "Vagy, menj ide <0>hls downloader website</0> és illeszd be az alábbi lejátszási lista URL-t.",
-                "hlsDisclaimer": "A letöltések közvetlen a tartalomszolgáltatótól vannak.M-Flix-nek nincsen semmi befolyása, hogy a letöltések hogyan vannak szolgáltatva.<br /><br />Vedd figyelembe, hogy egy HLS lejátszási listát töltesz le, <bold>nem ajánlott letölteni, ha nem vagy ismerős a haladó sztreaming formátumokkal</bold>. Próbálj különböző forrásokat más formátumokért."
+                "hlsDisclaimer": "A letöltések közvetlen a tartalomszolgáltatótól vannak.Suized-nek nincsen semmi befolyása, hogy a letöltések hogyan vannak szolgáltatva.<br /><br />Vedd figyelembe, hogy egy HLS lejátszási listát töltesz le, <bold>nem ajánlott letölteni, ha nem vagy ismerős a haladó sztreaming formátumokkal</bold>. Próbálj különböző forrásokat más formátumokért."
             },
             "episodes": {
                 "button": "Részek",
@@ -627,7 +627,7 @@
                 "homeButton": "Kezdőlapra",
                 "enableExtension": "Engedélyezd a bővítményt",
                 "title": "Kérlek engedélyezd a bővítményt",
-                "text": "Telepítetted a M-Flix bővitményt. Hogy használni tudd, engedélyezned kell a bővítményt ennek az oldalnak."
+                "text": "Telepítetted a Suized bővitményt. Hogy használni tudd, engedélyezned kell a bővítményt ennek az oldalnak."
             },
             "tips": {
                 "1": "Nyomj a fogaskerékre, hogy forrásokat válts!",
@@ -662,15 +662,15 @@
         "turnstile": {
             "title": "Robot vagy?",
             "verifyingHumanity": "Emberiség megerősítése...",
-            "description": "Kérlek bízonyitsd emberi léteted ezzel az egyszerű feladattal, hogy biztonsága tartsuk M-Flix-et.",
+            "description": "Kérlek bízonyitsd emberi léteted ezzel az egyszerű feladattal, hogy biztonsága tartsuk Suized-et.",
             "error": "Nem sikerült bizonyítani emberiséged - sztreamnek nem sikerült betöltenie. Töröld a cache-ed és próbáld újra vagy válts forrást (nyomd a fogaskereket)."
         }
     },
     "support": {
         "title": "Szupport",
-        "text": "M-Flix minnél felhasználó barátabbnak van tervezve. De így is szoktak lenni kérdések, és problémák. Ez az oldal ezeknek a megoldására szolgál",
+        "text": "Suized minnél felhasználó barátabbnak van tervezve. De így is szoktak lenni kérdések, és problémák. Ez az oldal ezeknek a megoldására szolgál",
         "q1": {
-            "body": "Csatlakozhatsz a hivatalos <0>M-Flix Telegram</0> szerverhez, és ott kérdezhetsz, vagy írhatsz egy emailt az oldal alján található címre.",
+            "body": "Csatlakozhatsz a hivatalos <0>Suized Telegram</0> szerverhez, és ott kérdezhetsz, vagy írhatsz egy emailt az oldal alján található címre.",
             "title": "Hol kaphatok segítséget?"
         },
         "q2": {
@@ -680,10 +680,10 @@
     },
     "jip": {
         "title": "Jip",
-        "text": "M-Flix nem került ide a semmiből, nem a fán termett, nagyrészt egy ember által lett csinálva (egy nagyon király ember által).",
+        "text": "Suized nem került ide a semmiből, nem a fán termett, nagyrészt egy ember által lett csinálva (egy nagyon király ember által).",
         "q1": {
             "title": "Hol kaphatok segítséget?",
-            "body": "Csatlakozhatsz a hivatalos <0>M-Flix Telegram</0> szerverhez, és ott kérdezhetsz, vagy írhatsz egy emailt az oldal alján található címre."
+            "body": "Csatlakozhatsz a hivatalos <0>Suized Telegram</0> szerverhez, és ott kérdezhetsz, vagy írhatsz egy emailt az oldal alján található címre."
         },
         "q2": {
             "title": "Hol tudok jelenteni egy bugot, vagy egy hibát?",
@@ -719,7 +719,7 @@
             "admin": {
                 "title": "Adminisztrátor panel",
                 "button": "Nézd meg",
-                "text": "Használd az eszközöket, amik M-Flix állapotának felmérésére lettek tervezve."
+                "text": "Használd az eszközöket, amik Suized állapotának felmérésére lettek tervezve."
             },
             "actions": {
                 "delete": {

@@ -1,20 +1,20 @@
 {
     "about": {
-        "description": "Ahoy there! \"M-Flix\" be a fine vessel on the digital seas, a web application scourin' the vast internet for streams. The crew be settin' their sights on a mostly minimalistic approach to enjoyin' the booty of entertainment. Arrr!",
+        "description": "Ahoy there! \"Suized\" be a fine vessel on the digital seas, a web application scourin' the vast internet for streams. The crew be settin' their sights on a mostly minimalistic approach to enjoyin' the booty of entertainment. Arrr!",
         "faqTitle": "Common queries",
         "q1": {
-            "body": "Arrr! \"M-Flix\" be a noble ship that don't harbor any content itself. When ye click to set yer eyes on a treasure, the application sets sail across the internet, scourin' the vast seas for the chosen media. Check the loading screen and the 'video sources' tab to spy on which source be providin' the entertainment. No media be uploaded by \"M-Flix\" — it be all through this searchin' mechanism, savvy?",
+            "body": "Arrr! \"Suized\" be a noble ship that don't harbor any content itself. When ye click to set yer eyes on a treasure, the application sets sail across the internet, scourin' the vast seas for the chosen media. Check the loading screen and the 'video sources' tab to spy on which source be providin' the entertainment. No media be uploaded by \"Suized\" — it be all through this searchin' mechanism, savvy?",
             "title": "From which cove does the content emerge, me heartie?"
         },
         "q2": {
-            "body": "Avast, ye landlubber! Be warned, ye can't be requestin' a show or movie on \"M-Flix,\" for it don't manage any content. All the booty ye set yer eyes on be viewed through sources sailin' the internet. The ship merely be a vessel, not a keeper of the treasures. Navigate wisely, me heartie!",
+            "body": "Avast, ye landlubber! Be warned, ye can't be requestin' a show or movie on \"Suized,\" for it don't manage any content. All the booty ye set yer eyes on be viewed through sources sailin' the internet. The ship merely be a vessel, not a keeper of the treasures. Navigate wisely, me heartie!",
             "title": "Where be I able to make a hearty request for a show or movie?"
         },
         "q3": {
             "body": "Arrr, set yer sights on this, me matey! Our search results be fueled by The Movie Database (TMDB), showin' the way regardless of whether our sources in the vast digital seas actually bear the coveted content. It be a guide, not a promise of a sure find. Navigate the waters wisely, for the winds of the internet can be fickle!",
             "title": "Why be the search results unveilin' the show or movie, yet I can't set sail to watch it?"
         },
-        "title": "The tales of \"M-Flix\""
+        "title": "The tales of \"Suized\""
     },
     "actions": {
         "copied": "Copied",
@@ -80,7 +80,7 @@
     "footer": {
         "legal": {
             "disclaimer": "Disclaimer",
-            "disclaimerText": "M-Flix does not host any files, it merely links to 3rd party services. Legal issues should be taken up with the file hosts and providers. M-Flix be not responsible for any media files shown by the video providers."
+            "disclaimerText": "Suized does not host any files, it merely links to 3rd party services. Legal issues should be taken up with the file hosts and providers. Suized be not responsible for any media files shown by the video providers."
         },
         "links": {
             "telegram": "Telegram",
@@ -90,13 +90,13 @@
         "tagline": "Watch yer favorite shows and movies with this open source streaming ship."
     },
     "global": {
-        "name": "M-Flix",
+        "name": "Suized",
         "pages": {
             "about": "About",
             "dmca": "DMCA",
             "login": "Login",
             "onboarding": "Setup",
-            "pagetitle": "{{title}} - M-Flix",
+            "pagetitle": "{{title}} - Suized",
             "register": "Forge yer account, matey!",
             "settings": "Settings"
         }
@@ -227,7 +227,7 @@
                     "title": "Custom proxy"
                 }
             },
-            "title": "Let's get ye setup wit' M-Flix"
+            "title": "Let's get ye setup wit' Suized"
         }
     },
     "overlays": {
@@ -243,10 +243,10 @@
         },
         "menus": {
             "downloads": {
-                "disclaimer": "Downloads be taken directly from the provider. M-Flix does not have control over how the downloads be provided.",
+                "disclaimer": "Downloads be taken directly from the provider. Suized does not have control over how the downloads be provided.",
                 "downloadSubtitle": "Download current subtitle",
                 "downloadVideo": "Download film",
-                "hlsDisclaimer": "Loot are taken directly from the provider. M-Flix does nah 'ave control o'er how the loot are provided. <br /><br />Please note that ye be downloadin' an HLS playlist, <bold>'tisn't recommended t' download if ye be nah familiar wit' advanced streamin' formats</bold>. Try different sources fer different formats.",
+                "hlsDisclaimer": "Loot are taken directly from the provider. Suized does nah 'ave control o'er how the loot are provided. <br /><br />Please note that ye be downloadin' an HLS playlist, <bold>'tisn't recommended t' download if ye be nah familiar wit' advanced streamin' formats</bold>. Try different sources fer different formats.",
                 "onAndroid": {
                     "1": "To download on Android, <bold>tap and hold</bold> on the film, then select <bold>save</bold>.",
                     "shortTitle": "Download / Android",
@@ -341,7 +341,7 @@
             "failed": {
                 "badge": "Failed",
                 "homeButton": "Go home port",
-                "text": "Oh, me apologies, sweetie! The itty-bitty M-Flix did its utmost bestest, but alas, no wucky videos to be spotted anywhere (´⊙ω⊙`) Please don't be angwy, wittle M-Flix ish twying so hard. Can ye find it in yer heart to forgive? UwU 💖",
+                "text": "Oh, me apologies, sweetie! The itty-bitty Suized did its utmost bestest, but alas, no wucky videos to be spotted anywhere (´⊙ω⊙`) Please don't be angwy, wittle Suized ish twying so hard. Can ye find it in yer heart to forgive? UwU 💖",
                 "title": "Failed to load meta data"
             },
             "notFound": {
@@ -364,7 +364,7 @@
                 "errorNotSupported": "The associated resource or media provider object has been found to be unsuitable."
             },
             "homeButton": "Go home port",
-            "text": "Oh, me apologies, sweetie! The itty-bitty M-Flix did its utmost bestest, but alas, no wucky videos to be spotted anywhere (´⊙ω⊙`) Please don't be angwy, wittle M-Flix ish twying so hard. Can ye find it in yer heart to forgive? UwU 💖",
+            "text": "Oh, me apologies, sweetie! The itty-bitty Suized did its utmost bestest, but alas, no wucky videos to be spotted anywhere (´⊙ω⊙`) Please don't be angwy, wittle Suized ish twying so hard. Can ye find it in yer heart to forgive? UwU 💖",
             "title": "Whoops, it broke!"
         },
         "scraping": {
@@ -377,7 +377,7 @@
                 "badge": "Not found",
                 "detailsButton": "Show details",
                 "homeButton": "Go home port",
-                "text": "Oh, me apologies, sweetie! The itty-bitty M-Flix did its utmost bestest, but alas, no wucky videos to be spotted anywhere (´⊙ω⊙`) Please don't be angwy, wittle M-Flix ish twying so hard. Can ye find it in yer heart to forgive? UwU 💖",
+                "text": "Oh, me apologies, sweetie! The itty-bitty Suized did its utmost bestest, but alas, no wucky videos to be spotted anywhere (´⊙ω⊙`) Please don't be angwy, wittle Suized ish twying so hard. Can ye find it in yer heart to forgive? UwU 💖",
                 "title": "Goo goo gaa gaa"
             }
         },
@@ -388,7 +388,7 @@
             "shortRemaining": "-{{timeLeft}}"
         },
         "turnstile": {
-            "description": "Please verify that ye be human by completin' the Captcha on right. 'tis t' keep M-Flix safe!",
+            "description": "Please verify that ye be human by completin' the Captcha on right. 'tis t' keep Suized safe!",
             "error": "Failed t' verify yer piracy. Please try again.",
             "title": "We needs t' verify that ye're real pirate.",
             "verifyingHumanity": "Verifyin' yer piracy..."

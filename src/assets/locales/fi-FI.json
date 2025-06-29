@@ -1,26 +1,26 @@
 {
     "about": {
-        "description": "M-Flix on movie-webin haarukka, joka pysyy pystyssä, vaikka movie-web.app suljettiin. M-Flix pyörii yksityisellä, itse ylläpitämälläni VPS:llä. Pyöritän sivua tappiolla; mainoksia ei ole, koska uskon ilmaiseen mediaan.",
+        "description": "Suized on movie-webin haarukka, joka pysyy pystyssä, vaikka movie-web.app suljettiin. Suized pyörii yksityisellä, itse ylläpitämälläni VPS:llä. Pyöritän sivua tappiolla; mainoksia ei ole, koska uskon ilmaiseen mediaan.",
         "faqTitle": "Yleisiä kysymyksiä",
         "q1": {
-            "body": "M-Flix ei isännöi mitään sisältöä. Kun klikkaat jotain katsottavaa, valittua mediaa etsitään internetistä (latausnäytössä ja 'videolähteet'-välilehdellä näet, mitä lähdettä käytät). M-Flix ei koskaan lataa mediaa, kaikki tapahtuu tämän hakumekanismin kautta.",
+            "body": "Suized ei isännöi mitään sisältöä. Kun klikkaat jotain katsottavaa, valittua mediaa etsitään internetistä (latausnäytössä ja 'videolähteet'-välilehdellä näet, mitä lähdettä käytät). Suized ei koskaan lataa mediaa, kaikki tapahtuu tämän hakumekanismin kautta.",
             "title": "Mistä sisältö tulee?"
         },
         "q2": {
-            "body": "Ohjelmaa tai elokuvaa ei voi pyytää, M-Flix ei hallinnoi sisältöä. Kaikki sisältö katsotaan internetin lähteistä.",
+            "body": "Ohjelmaa tai elokuvaa ei voi pyytää, Suized ei hallinnoi sisältöä. Kaikki sisältö katsotaan internetin lähteistä.",
             "title": "Missä voin pyytää sarjaa tai elokuvaa?"
         },
         "q3": {
             "body": "Hakutuloksemme perustuvat The Movie Database (TMDB) -tietokantaan, ja ne näkyvät riippumatta siitä, onko sisältöä oikeasti lähteissämme.",
             "title": "Hakutuloksissa näytetään ohjelma tai elokuva. Miksi en voi toistaa sitä?"
         },
-        "title": "Tietoja M-Flixistä",
+        "title": "Tietoja Suizedistä",
         "q4": {
             "body": "Kaikki data synkronoidaan yhteisön taustajärjestelmään, ja kuka tahansa voi vapaasti käyttää tätä.",
             "title": "Entä tietoni ja muut asiat?"
         },
         "q5": {
-            "body": "M-Flixilla on Telegram-palvelin, jonka löydät tämän sivun yläosasta!",
+            "body": "Suizedilla on Telegram-palvelin, jonka löydät tämän sivun yläosasta!",
             "title": "Miten voin saada lisätietoa?"
         }
     },
@@ -90,7 +90,7 @@
     "footer": {
         "legal": {
             "disclaimer": "Vastuuvapauslauseke",
-            "disclaimerText": "M-Flix ei isännöi tiedostoja, se vain linkittää kolmannen osapuolen palveluihin. Lakiasioista tulee ottaa yhteyttä tiedostoisäntään ja palveluntarjoajiin. M-Flix ei ole vastuussa videontarjoajien näyttämistä mediatiedostoista."
+            "disclaimerText": "Suized ei isännöi tiedostoja, se vain linkittää kolmannen osapuolen palveluihin. Lakiasioista tulee ottaa yhteyttä tiedostoisäntään ja palveluntarjoajiin. Suized ei ole vastuussa videontarjoajien näyttämistä mediatiedostoista."
         },
         "links": {
             "telegram": "Telegram",
@@ -102,13 +102,13 @@
         "tagline": "Katso suosikkiohjelmiasi ja elokuviasi täysin ilmaiseksi ilman mainoksia! (っ'ヮ'c)"
     },
     "global": {
-        "name": "M-Flix",
+        "name": "Suized",
         "pages": {
             "about": "Tietoja",
             "dmca": "DMCA",
             "login": "Kirjaudu sisään",
             "onboarding": "asetus",
-            "pagetitle": "{{title}} - M-Flix",
+            "pagetitle": "{{title}} - Suized",
             "register": "Rekisteröidy",
             "settings": "Asetukset",
             "migration": "Siirrä käyttäjätili",
@@ -138,11 +138,11 @@
                     "Mitä tekisi mieli?",
                     "Poistetaanko selaushistoriasi?",
                     "Mitä haluat striimata?",
-                    "M-Flix on paras sivusto ikinä!",
+                    "Suized on paras sivusto ikinä!",
                     "Mitä katselulistallasi on tänään?",
                     "Miten päiväsi sujui?",
                     "Pahoittelut, sivusto ei toimi koskaan...",
-                    "Eikö M-Flix olekin paras?",
+                    "Eikö Suized olekin paras?",
                     ">ᴗ<"
                 ]
             },

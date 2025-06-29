@@ -1,23 +1,23 @@
 {
     "about": {
-        "description": "M-Flix jest aplikacją internetową, która wyszukuje w internecie strumienia. Zespół dąży do minimalistycznego podejścia do konsumpcji treści.",
+        "description": "Suized jest aplikacją internetową, która wyszukuje w internecie strumienia. Zespół dąży do minimalistycznego podejścia do konsumpcji treści.",
         "faqTitle": "Częste pytania",
         "q1": {
-            "body": "M-Flix nie udostępnia żadnych treści. Kiedy klikniesz na coś co chcesz obejrzeć, internet zostanie przeszukany pod kątem wybranych multimediów (na ekranie ładowania oraz w zakładce „źródła wideo” możesz zobaczyć, z jakiego źródła korzystasz). Media nigdy nie są przesyłane przez M-Flix, wszystko odbywa się za pośrednictwem tego mechanizmu wyszukiwania.",
+            "body": "Suized nie udostępnia żadnych treści. Kiedy klikniesz na coś co chcesz obejrzeć, internet zostanie przeszukany pod kątem wybranych multimediów (na ekranie ładowania oraz w zakładce „źródła wideo” możesz zobaczyć, z jakiego źródła korzystasz). Media nigdy nie są przesyłane przez Suized, wszystko odbywa się za pośrednictwem tego mechanizmu wyszukiwania.",
             "title": "Skąd pochodzą treści?"
         },
         "q2": {
-            "body": "Nie można złożyć wniosku o serialu ani filmu, M-Flix nie zarządza żadną treścią. Wszystkie treści są przeglądane za pośrednictwem źródeł w Internecie.",
+            "body": "Nie można złożyć wniosku o serialu ani filmu, Suized nie zarządza żadną treścią. Wszystkie treści są przeglądane za pośrednictwem źródeł w Internecie.",
             "title": "Gdzie mogę złożyć wniosek o seriale lub filmie?"
         },
         "q3": {
             "body": "Nasze wyniki wyszukiwania pochodzą z TMDB i są wyświetlane niezależnie od tego, czy nasze źródła faktycznie posiadają daną treść.",
             "title": "W wyniku wyszukiwania wyświetlany jest serial lub film. Dlaczego nie mogę go odtworzyć?"
         },
-        "title": "O M-Flix",
+        "title": "O Suized",
         "q5": {
             "title": "Jak mogę dowiedzieć się więcej?",
-            "body": "M-Flix ma swój serwer Telegram, który znajdziesz w nagłówku strony!"
+            "body": "Suized ma swój serwer Telegram, który znajdziesz w nagłówku strony!"
         },
         "q4": {
             "title": "Co z moimi danymi?"
@@ -89,7 +89,7 @@
     "footer": {
         "legal": {
             "disclaimer": "Zastrzeżenie",
-            "disclaimerText": "M-Flix nie przechowuje żadnych plików, zawiera jedynie łącza do usług stron trzecich. Kwestie prawne należy konsultować z hostami plików i dostawcami. M-Flix nie ponosi odpowiedzialności za jakiekolwiek pliki multimedialne prezentowane przez dostawców wideo."
+            "disclaimerText": "Suized nie przechowuje żadnych plików, zawiera jedynie łącza do usług stron trzecich. Kwestie prawne należy konsultować z hostami plików i dostawcami. Suized nie ponosi odpowiedzialności za jakiekolwiek pliki multimedialne prezentowane przez dostawców wideo."
         },
         "links": {
             "telegram": "Telegram",
@@ -100,13 +100,13 @@
         "tagline": "Oglądaj swoje ulubione seriale i filmy za pomocą tej aplikacji streamingowej typu open source."
     },
     "global": {
-        "name": "M-Flix",
+        "name": "Suized",
         "pages": {
             "about": "Informacje",
             "dmca": "DMCA",
             "login": "Zaloguj sie",
             "onboarding": "Konfiguracja",
-            "pagetitle": "{{title}} - M-Flix",
+            "pagetitle": "{{title}} - Suized",
             "register": "Zarejestruj się",
             "settings": "Ustawienia",
             "discover": "Odkrywaj",
@@ -135,11 +135,11 @@
                     "Co chcesz odkryć?",
                     "Co znajduje się na Twojej liście do obejrzenia?",
                     "Jaki jest twój ulubiony film?",
-                    "M-Flix to najlepsza strona!",
+                    "Suized to najlepsza strona!",
                     "Co chcesz dzisiaj zobaczyć?",
                     "Jak minął Ci dzień?",
                     null,
-                    "Czy M-Flix nie jest najlepszy?",
+                    "Czy Suized nie jest najlepszy?",
                     ">ᴗ<"
                 ]
             },
@@ -275,7 +275,7 @@
                     "title": "Niestandardowy serwer proxy"
                 }
             },
-            "title": "Przejdźmy do konfiguracji z M-Flix"
+            "title": "Przejdźmy do konfiguracji z Suized"
         }
     },
     "overlays": {
@@ -292,10 +292,10 @@
         "menus": {
             "downloads": {
                 "copyHlsPlaylist": "Kopiuj link do listy odtwarzania HLS",
-                "disclaimer": "Pliki do pobrania są pobierane bezpośrednio od dostawcy. M-Flix nie ma kontroli nad sposobem dostarczania plików do pobrania.",
+                "disclaimer": "Pliki do pobrania są pobierane bezpośrednio od dostawcy. Suized nie ma kontroli nad sposobem dostarczania plików do pobrania.",
                 "downloadSubtitle": "Pobierz aktualne napisy",
                 "downloadVideo": "Pobierz wideo",
-                "hlsDisclaimer": "Pliki do pobrania są pobierane bezpośrednio od dostawcy. M-Flix nie ma kontroli nad sposobem dostarczania plików do pobrania.<br /><br />Należy pamiętać, że pobierasz playlistę HLS, <bold>nie zaleca się pobierania, jeśli nie jesteś zaznajomiony z zaawansowanymi formatami przesyłania strumieniowego</bold>. Wypróbuj różne źródła dla innych formatów.",
+                "hlsDisclaimer": "Pliki do pobrania są pobierane bezpośrednio od dostawcy. Suized nie ma kontroli nad sposobem dostarczania plików do pobrania.<br /><br />Należy pamiętać, że pobierasz playlistę HLS, <bold>nie zaleca się pobierania, jeśli nie jesteś zaznajomiony z zaawansowanymi formatami przesyłania strumieniowego</bold>. Wypróbuj różne źródła dla innych formatów.",
                 "onAndroid": {
                     "1": "Aby pobrać na Androidzie, kliknij przycisk pobierania, a następnie na nowej stronie <bold>dotknij i przytrzymaj</bold> na filmie, a następnie wybierz <bold>zapisz</bold>.",
                     "shortTitle": "Pobierz / Android",
@@ -439,7 +439,7 @@
             "shortRemaining": "-{{timeLeft}}"
         },
         "turnstile": {
-            "description": "Proszę potwierdź że jesteś człowiekiem, wypełniając Captcha po prawej stronie. Ma to zapewnić bezpieczeństwo M-Flix!",
+            "description": "Proszę potwierdź że jesteś człowiekiem, wypełniając Captcha po prawej stronie. Ma to zapewnić bezpieczeństwo Suized!",
             "error": "Nie udało się zweryfikować Twojego człowieczeństwa. Proszę spróbuj ponownie.",
             "title": "Musimy sprawdzić, czy jesteś człowiekiem.",
             "verifyingHumanity": "Sprawdzasz swoje człowieczeństwo..."

@@ -1,26 +1,26 @@
 {
     "about": {
-        "description": "M-Flix là một ứng dụng web tìm kiếm các nguồn truyền phát trực tuyến trên Internet. Nhóm phát triển ứng dụng này nhắm đến một cách dễ dàng hơn trong việc tiêu thụ nội dung.",
+        "description": "Suized là một ứng dụng web tìm kiếm các nguồn truyền phát trực tuyến trên Internet. Nhóm phát triển ứng dụng này nhắm đến một cách dễ dàng hơn trong việc tiêu thụ nội dung.",
         "faqTitle": "Các câu hỏi thường gặp",
         "q1": {
-            "body": "M-Flix không lưu trữ bất kì nội dung nào. Khi bạn chọn xem một nội dung nào đó, ứng dụng sẽ tìm kiếm nội dung đó trên Internet (Khi nội dung tải và trong tab 'nguồn video' bạn sẽ tìm thấy nguồn đang được dùng). Nội dung không bao giờ được tải lên trên M-Flix, mọi thứ đều được tìm kiếm thông qua phương thức này.",
+            "body": "Suized không lưu trữ bất kì nội dung nào. Khi bạn chọn xem một nội dung nào đó, ứng dụng sẽ tìm kiếm nội dung đó trên Internet (Khi nội dung tải và trong tab 'nguồn video' bạn sẽ tìm thấy nguồn đang được dùng). Nội dung không bao giờ được tải lên trên Suized, mọi thứ đều được tìm kiếm thông qua phương thức này.",
             "title": "Nội dung đến từ đâu?"
         },
         "q2": {
-            "body": "Việc yêu cầu thêm một chương trình truyền hình hoặc phim là điều bất khả thi bởi vì M-Flix không quản lý bất kỳ nội dung nào. Tất cả nội dung được truyền thông qua những nguồn trên internet.",
+            "body": "Việc yêu cầu thêm một chương trình truyền hình hoặc phim là điều bất khả thi bởi vì Suized không quản lý bất kỳ nội dung nào. Tất cả nội dung được truyền thông qua những nguồn trên internet.",
             "title": "Tôi có thể yêu cầu thêm một chương trình truyền hình hoặc phim ở đâu?"
         },
         "q3": {
             "body": "Các kết quả tìm kiếm được cung cấp bởi The Movie Database (TMDB) và hiện lên bất kể các nguồn của trang thực sự có lưu trữ nội dung đó hay không.",
             "title": "Tại sao kết quả tìm kiếm hiển thị chương trình truyền hình hoặc phim nhưng tôi không thể xem nó?"
         },
-        "title": "Về M-Flix",
+        "title": "Về Suized",
         "q4": {
             "body": "Tất cả dữ liệu đều được đồng bộ với hệ thống cộng đồng, bất kỳ ai cũng có thể sử dụng tự do.",
             "title": "Còn dữ liệu với mấy thứ của tôi thì sao?"
         },
         "q5": {
-            "body": "M-Flix có Telegram server nằm ở phần đầu trang này đó!",
+            "body": "Suized có Telegram server nằm ở phần đầu trang này đó!",
             "title": "Muốn biết thêm thì làm sao?"
         }
     },
@@ -90,7 +90,7 @@
     "footer": {
         "legal": {
             "disclaimer": "Tuyên bố miễn trừ trách nhiệm",
-            "disclaimerText": "M-Flix không lưu trữ bất kì file nào, nó chỉ đến những đường dẫn của các dịch vụ bên thứ ba. Bất kỳ vấn đề nào về pháp lý nên được đưa đến chủ sỡ hữu của file hoặc những nhà cung cấp đó. M-Flix hoàn toàn không chịu trách nhiệm cho bất kỳ nội dung nào được chiếu từ các nhà cung cấp."
+            "disclaimerText": "Suized không lưu trữ bất kì file nào, nó chỉ đến những đường dẫn của các dịch vụ bên thứ ba. Bất kỳ vấn đề nào về pháp lý nên được đưa đến chủ sỡ hữu của file hoặc những nhà cung cấp đó. Suized hoàn toàn không chịu trách nhiệm cho bất kỳ nội dung nào được chiếu từ các nhà cung cấp."
         },
         "links": {
             "telegram": "Telegram",
@@ -101,13 +101,13 @@
         "tagline": "Xem các chương trình và phim yêu thích của bạn với ứng dụng phát trực tuyến nguồn mở này."
     },
     "global": {
-        "name": "M-Flix",
+        "name": "Suized",
         "pages": {
             "about": "Thông tin",
             "dmca": "DMCA",
             "login": "Đăng nhập",
             "onboarding": "Cài đặt",
-            "pagetitle": "{{title}} - M-Flix",
+            "pagetitle": "{{title}} - Suized",
             "register": "Đăng ký",
             "settings": "Cài đặt",
             "migration": "Chuyển tài khoản",

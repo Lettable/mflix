@@ -1,26 +1,26 @@
 {
     "about": {
-        "description": "M-Flix est une application web qui recherche des flux sur Internet. L'équipe vise une approche minimaliste de la consommation de contenu.",
+        "description": "Suized est une application web qui recherche des flux sur Internet. L'équipe vise une approche minimaliste de la consommation de contenu.",
         "faqTitle": "Questions fréquentes",
         "q1": {
-            "body": "M-Flix n'héberge aucun contenu. Lorsque vous cliquez sur un élément à regarder, une recherche est effectuée sur Internet pour trouver le média sélectionné (sur l'écran de chargement et dans l'onglet \"sources vidéo\", vous pouvez voir quelle source vous utilisez). Les médias ne sont jamais téléchargés par M-Flix, tout passe par ce mécanisme de recherche.",
+            "body": "Suized n'héberge aucun contenu. Lorsque vous cliquez sur un élément à regarder, une recherche est effectuée sur Internet pour trouver le média sélectionné (sur l'écran de chargement et dans l'onglet \"sources vidéo\", vous pouvez voir quelle source vous utilisez). Les médias ne sont jamais téléchargés par Suized, tout passe par ce mécanisme de recherche.",
             "title": "D’où proviennent les contenus proposés ?"
         },
         "q2": {
-            "body": "Il est impossible de demander un film ou une série, car M-Flix ne gère aucun contenu. Le contenu est récupéré en explorant d'autres sites sur Internet.",
+            "body": "Il est impossible de demander un film ou une série, car Suized ne gère aucun contenu. Le contenu est récupéré en explorant d'autres sites sur Internet.",
             "title": "Où puis-je demander une série ou un film ?"
         },
         "q3": {
             "body": "Nos résultats de recherche sont fournis par The Movie Database (TMDB) et peuvent s’afficher même si le contenu n’est pas réellement disponible via nos sources.",
             "title": "Le film ou la série apparaît dans les résultats de recherche, pourquoi je ne peux pas le/la regarder ?"
         },
-        "title": "À propos de M-Flix (^▽^)",
+        "title": "À propos de Suized (^▽^)",
         "q4": {
             "body": "La synchronisation de toutes les données se fait sur la sudo-backend, qui diffère de la backend de communauté et est hébergé indépendamment par moi. Tout le monde peut également l'utiliser.",
             "title": "Qu'en est-il de mes données ?"
         },
         "q5": {
-            "body": "M-Flix possède un serveur Telegram qui peut être trouvé en-tête de page !",
+            "body": "Suized possède un serveur Telegram qui peut être trouvé en-tête de page !",
             "title": "Comment puis-je en savoir plus ?"
         }
     },
@@ -90,7 +90,7 @@
     "footer": {
         "legal": {
             "disclaimer": "Avertissement",
-            "disclaimerText": "M-Flix ne stocke pas de fichiers, mais propose des liens vers des services externes. Les problèmes juridiques doivent être traités avec les fournisseurs et les hébergeurs de fichiers. Les fichiers multimédias diffusés par les fournisseurs de vidéos ne sont pas couverts par M-Flix."
+            "disclaimerText": "Suized ne stocke pas de fichiers, mais propose des liens vers des services externes. Les problèmes juridiques doivent être traités avec les fournisseurs et les hébergeurs de fichiers. Les fichiers multimédias diffusés par les fournisseurs de vidéos ne sont pas couverts par Suized."
         },
         "links": {
             "telegram": "Telegram",
@@ -102,13 +102,13 @@
         "tagline": "Regardez vos émissions et films préférés gratuitement et sans aucune pubs ! (っ'ヮ'c)"
     },
     "global": {
-        "name": "M-Flix",
+        "name": "Suized",
         "pages": {
             "about": "À propos",
             "dmca": "DMCA",
             "login": "Se connecter",
             "onboarding": "Mise en place",
-            "pagetitle": "{{title}} - M-Flix",
+            "pagetitle": "{{title}} - Suized",
             "register": "Créer un compte",
             "settings": "Paramètres",
             "discover": "Découvrir",
@@ -137,11 +137,11 @@
                     "Que voulez-vous explorer ?",
                     "Qu'y a-t-il dans votre liste de lecture ?",
                     "Quel est votre film préféré ?",
-                    "M-Flix est le meilleur site au monde !",
+                    "Suized est le meilleur site au monde !",
                     "Qu'est-ce que tu as prévu de regarder aujourd'hui ?",
                     "Comment s'est passée ta journée ?",
                     null,
-                    "Est-ce que M-Flix n'est pas tout simplement le meilleur ?",
+                    "Est-ce que Suized n'est pas tout simplement le meilleur ?",
                     ">ᴗ<"
                 ]
             },
@@ -162,7 +162,7 @@
             "day": {
                 "default": "Que voulez-vous regarder cet après-midi ?",
                 "extra": [
-                    "Viva la M-Flix !"
+                    "Viva la Suized !"
                 ]
             },
             "morning": {
@@ -287,7 +287,7 @@
                 },
                 "or": "ou"
             },
-            "title": "Commençons par configurer M-Flix",
+            "title": "Commençons par configurer Suized",
             "moreInfo": {
                 "recommended": {
                     "subtitle": "Configurations recommandées :",
@@ -307,18 +307,18 @@
                 },
                 "button": "Voir plus",
                 "explainer": {
-                    "intro": "M-Flix n’héberge pas de vidéos. Il s’appuie sur des sites tiers pour accéder au contenu, vous devez donc choisir comment il s’y connecte.",
+                    "intro": "Suized n’héberge pas de vidéos. Il s’appuie sur des sites tiers pour accéder au contenu, vous devez donc choisir comment il s’y connecte.",
                     "proxyDescription": "Le proxy récupère les contenus depuis d’autres sites web. Il contourne les restrictions du navigateur (comme CORS) pour permettre cette récupération.",
                     "fedapi": {
                         "fedapi": "Optionnel : jeton API FED (privé)",
                         "fedapiDescription": "Connectez votre propre compte gratuit Febbox pour accéder à l’API FED (privée), la meilleure source avec qualité 4K, Dolby Atmos, fonction sauter l’intro et des temps de chargement ultra rapides! Cette option est fortement recommandée."
                     },
-                    "outro": "Si vous avez d’autres questions sur le fonctionnement, n’hésitez pas à les poser sur le serveur <0>Telegram de M-Flix</0> !",
+                    "outro": "Si vous avez d’autres questions sur le fonctionnement, n’hésitez pas à les poser sur le serveur <0>Telegram de Suized</0> !",
                     "extension": "1. Extension",
                     "options": "Vos Options :",
                     "proxy": "2. Proxy",
                     "default": "3. Configuration par défaut",
-                    "defaultDescription": "Utilise le proxy intégré de M-Flix. C’est l’option la plus simple, mais elle peut être plus lente en raison de la bande passante partagée."
+                    "defaultDescription": "Utilise le proxy intégré de Suized. C’est l’option la plus simple, mais elle peut être plus lente en raison de la bande passante partagée."
                 },
                 "title": "Comprendre le paramétrage"
             }
@@ -338,10 +338,10 @@
         "menus": {
             "downloads": {
                 "copyHlsPlaylist": "Copier le lien de la playlist HLS",
-                "disclaimer": "Les téléchargements sont effectués directement par le fournisseur. M-Flix n'a aucun contrôle sur la manière dont les téléchargements sont effectués.",
+                "disclaimer": "Les téléchargements sont effectués directement par le fournisseur. Suized n'a aucun contrôle sur la manière dont les téléchargements sont effectués.",
                 "downloadSubtitle": "Télécharger les sous-titres",
                 "downloadVideo": "Télécharger la vidéo",
-                "hlsDisclaimer": "Les téléchargements sont effectués directement auprès du fournisseur. M-Flix n'a aucun contrôle sur la façon dont les téléchargements sont fournis.<br /><br />Veuillez noter que vous téléchargez une liste de lecture HLS, <bold>il n'est pas recommandé de la télécharger si vous n'êtes pas familier avec les formats de streaming avancés</bold>. Essayez différentes sources pour différents formats.",
+                "hlsDisclaimer": "Les téléchargements sont effectués directement auprès du fournisseur. Suized n'a aucun contrôle sur la façon dont les téléchargements sont fournis.<br /><br />Veuillez noter que vous téléchargez une liste de lecture HLS, <bold>il n'est pas recommandé de la télécharger si vous n'êtes pas familier avec les formats de streaming avancés</bold>. Essayez différentes sources pour différents formats.",
                 "onAndroid": {
                     "1": "Pour télécharger sur Android, cliquez sur le bouton de téléchargement, puis, sur la nouvelle page, <bold>tapez et maintenez</bold> sur la vidéo, et sélectionnez <bold>enregistrer</bold>.",
                     "shortTitle": "Télécharger / Android",
@@ -489,7 +489,7 @@
                 "badge": "Extension désactivée",
                 "enableExtension": "Activer l'extension",
                 "homeButton": "Revenir à l'accueil",
-                "text": "Vous avez installé l'extension M-Flix. Pour commencer à l'utiliser, vous devez activer l'extension pour ce site.",
+                "text": "Vous avez installé l'extension Suized. Pour commencer à l'utiliser, vous devez activer l'extension pour ce site.",
                 "title": "Veuillez activer l'extension"
             },
             "items": {
@@ -517,7 +517,7 @@
             "shortRemaining": "-{{timeLeft}}"
         },
         "turnstile": {
-            "description": "Veuillez vérifier que vous êtes bien humain en complétant le Captcha à droite. C'est pour assurer la sécurité de M-Flix !",
+            "description": "Veuillez vérifier que vous êtes bien humain en complétant le Captcha à droite. C'est pour assurer la sécurité de Suized !",
             "error": "Échec de la vérification de votre humanité. Veuillez réessayer.",
             "title": "Nous devons vérifier que vous êtes un humain.",
             "verifyingHumanity": "Vérification de votre humanité..."
@@ -941,17 +941,17 @@
             "body": "Nous avons un <0>GitHub</0> où vous pouvez créer un ticket détaillé dans notre dépôt. De plus, si vous le souhaitez, vous pouvez proposer une pull request pour corriger le problème vous-même.",
             "title": "Comment signaler un bug ou un problème ?"
         },
-        "text": "M-Flix a été conçu pour être aussi simple et intuitif que possible. Cependant, il est normal que des questions ou des problèmes surviennent. Cette page est là pour vous aider à y répondre et à résoudre ces difficultés.",
+        "text": "Suized a été conçu pour être aussi simple et intuitif que possible. Cependant, il est normal que des questions ou des problèmes surviennent. Cette page est là pour vous aider à y répondre et à résoudre ces difficultés.",
         "title": "Centre d’aide",
         "q1": {
-            "body": "Vous pouvez rejoindre le <0>Telegram officiel de M-Flix</0> pour poser vos questions, ou envoyer un e-mail à l’adresse indiquée en bas de cette page.",
+            "body": "Vous pouvez rejoindre le <0>Telegram officiel de Suized</0> pour poser vos questions, ou envoyer un e-mail à l’adresse indiquée en bas de cette page.",
             "title": "Où puis-je obtenir de l’aide ?"
         }
     },
     "downtimeNotice": {
         "badge": "Problèmes",
         "goHome": "Retour à l’accueil",
-        "message": "M-Flix rencontre à nouveau des problèmes avec certains fournisseurs. Si vous ne parvenez pas à trouver ou à lire un contenu, veuillez changer de source. Cette erreur risque de persister durant les périodes indiquées ci-dessous.",
+        "message": "Suized rencontre à nouveau des problèmes avec certains fournisseurs. Si vous ne parvenez pas à trouver ou à lire un contenu, veuillez changer de source. Cette erreur risque de persister durant les périodes indiquées ci-dessous.",
         "title": "Problèmes liés aux fournisseurs"
     }
 }

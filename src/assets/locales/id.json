@@ -1,20 +1,20 @@
 {
     "about": {
-        "description": "M-Flix adalah website yang mengumpulkan sumber media streaming dari internet. Didesain khusus dengan pendekatan minimalis agar mempermudah konsumsi konten.",
+        "description": "Suized adalah website yang mengumpulkan sumber media streaming dari internet. Didesain khusus dengan pendekatan minimalis agar mempermudah konsumsi konten.",
         "faqTitle": "Pertanyaan umum",
         "q1": {
-            "body": "M-Flix tidak menyimpan berkas media apapun. Ketika anda mengklik sesuatu untuk ditonton, aplikasi akan mencari berkas media di internet (saat media dimuat dan pada tab 'sumber media' anda dapat melihat sumber mana yang digunakan). M-Flix tidak pernah mengunggah media apapun, semua media didapat melalui mekanisme pencarian di internet.",
+            "body": "Suized tidak menyimpan berkas media apapun. Ketika anda mengklik sesuatu untuk ditonton, aplikasi akan mencari berkas media di internet (saat media dimuat dan pada tab 'sumber media' anda dapat melihat sumber mana yang digunakan). Suized tidak pernah mengunggah media apapun, semua media didapat melalui mekanisme pencarian di internet.",
             "title": "Dari mana konten berasal?"
         },
         "q2": {
-            "body": "Kami tidak menerima permintaan penambahan serial televisi atau film, M-Flix tidak mengelola konten apapun. Semua konten ditonton melalui sumber-sumber dari internet.",
+            "body": "Kami tidak menerima permintaan penambahan serial televisi atau film, Suized tidak mengelola konten apapun. Semua konten ditonton melalui sumber-sumber dari internet.",
             "title": "Di mana saya dapat meminta serial televisi atau film untuk ditambahkan?"
         },
         "q3": {
             "body": "Hasil pencarian aplikasi ini menggunakan API milik The Movie Database (TMDB) dan menampilkan semua hasil pencarian terlepas dari apakah sumber media tersebut dapat ditemukan di penyedia pihak ketiga atau tidak.",
             "title": "Hasil pencarian menampilkan serial televisi atau film yang saya cari, tapi mengapa saya tidak bisa memutarnya?"
         },
-        "title": "Tentang M-Flix"
+        "title": "Tentang Suized"
     },
     "actions": {
         "copied": "Disalin",
@@ -82,7 +82,7 @@
     "footer": {
         "legal": {
             "disclaimer": "Sanggahan",
-            "disclaimerText": "M-Flix tidak menyimpan berkas media apapun, aplikasi ini hanya menampilkan tautan dari pihak ketiga. Sengketa hukum harus diajukan langsung kepada penyedia pihak ketiga. M-Flix tidak bertanggung jawab atas berkas media yang ditampilkan oleh penyedia pihak ketiga."
+            "disclaimerText": "Suized tidak menyimpan berkas media apapun, aplikasi ini hanya menampilkan tautan dari pihak ketiga. Sengketa hukum harus diajukan langsung kepada penyedia pihak ketiga. Suized tidak bertanggung jawab atas berkas media yang ditampilkan oleh penyedia pihak ketiga."
         },
         "links": {
             "telegram": "Telegram",
@@ -92,13 +92,13 @@
         "tagline": "Tonton serial televisi dan film favorit anda dengan aplikasi streaming sumber terbuka ini."
     },
     "global": {
-        "name": "M-Flix",
+        "name": "Suized",
         "pages": {
             "about": "Tentang",
             "dmca": "DMCA",
             "login": "Masuk",
             "onboarding": "Penyiapan",
-            "pagetitle": "{{title}} - M-Flix",
+            "pagetitle": "{{title}} - Suized",
             "register": "Daftar",
             "settings": "Pengaturan"
         }
@@ -253,7 +253,7 @@
                 "disclaimer": "Tautan unduhan diambil langsung dari penyedia pihak ketiga. Aplikasi ini tidak memiliki kendali bagaimana unduhan disediakan.",
                 "downloadSubtitle": "Unduh subtitle saat ini",
                 "downloadVideo": "Unduh media",
-                "hlsDisclaimer": "Unduhan didapatkan langsung dari penyedia. M-Flix tidak memiliki kendali bagaimana unduan disediakan.<br /><br />Harap diperhatikan bahwa Anda mengunduh daftar putar HLS, <bold>ini tidak direkomendasikan untuk diunduh jika Anda tidak terbiasa dengan format streaming tingkat lanjut</bold>Coba sumber berbeda untuk format berbeda.",
+                "hlsDisclaimer": "Unduhan didapatkan langsung dari penyedia. Suized tidak memiliki kendali bagaimana unduan disediakan.<br /><br />Harap diperhatikan bahwa Anda mengunduh daftar putar HLS, <bold>ini tidak direkomendasikan untuk diunduh jika Anda tidak terbiasa dengan format streaming tingkat lanjut</bold>Coba sumber berbeda untuk format berbeda.",
                 "onAndroid": {
                     "1": "Untuk mengunduh di Android, klik tombol unduh, lalu di halaman baru <bold>klik dan tahan</bold> pada video, lalu pilih <bold>simpan</bold>.",
                     "shortTitle": "Unduh / Android",

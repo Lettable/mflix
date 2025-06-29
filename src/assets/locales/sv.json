@@ -1,20 +1,20 @@
 {
     "about": {
-        "description": "M-Flix är en webbapplikation som söker efter strömmar på internet. Teamet strävar efter en mestadels minimalistisk ansats för att konsumera innehåll.",
+        "description": "Suized är en webbapplikation som söker efter strömmar på internet. Teamet strävar efter en mestadels minimalistisk ansats för att konsumera innehåll.",
         "faqTitle": "Vanliga frågor",
         "q1": {
-            "body": "M-Flix hostar ingen innehåll. När du klickar på något att titta på, söks internet efter det valda mediet (På laddningsskärmen och i fliken 'Videokällor' kan du se vilken källa du använder). Inget medium laddas upp av M-Flix, allt sker genom sökmotorn.",
+            "body": "Suized hostar ingen innehåll. När du klickar på något att titta på, söks internet efter det valda mediet (På laddningsskärmen och i fliken 'Videokällor' kan du se vilken källa du använder). Inget medium laddas upp av Suized, allt sker genom sökmotorn.",
             "title": "Var kommer innehållet ifrån?"
         },
         "q2": {
-            "body": "Det går inte att begära en show eller film, M-Flix hanterar inte något innehåll. Allt innehåll visas genom källor på internet.",
+            "body": "Det går inte att begära en show eller film, Suized hanterar inte något innehåll. Allt innehåll visas genom källor på internet.",
             "title": "Var kan jag begära en show eller film?"
         },
         "q3": {
             "body": "Våra sökresultat drivs av The Movie Database (TMDB) och visas oavsett om våra källor faktiskt har innehållet.",
             "title": "Sökresultaten visar showen eller filmen, varför kan jag inte spela upp den?"
         },
-        "title": "Om M-Flix"
+        "title": "Om Suized"
     },
     "actions": {
         "copied": "Kopierad",
@@ -79,7 +79,7 @@
     "footer": {
         "legal": {
             "disclaimer": "Friskriver sig från ansvar",
-            "disclaimerText": "M-Flix hostar inga filer utan länkar endast till filer från tredje part. Eventuella juridiska frågor bör tas upp med källorna till materialet. M-Flix varken ansvarar eller styr över de mediefiler som visas."
+            "disclaimerText": "Suized hostar inga filer utan länkar endast till filer från tredje part. Eventuella juridiska frågor bör tas upp med källorna till materialet. Suized varken ansvarar eller styr över de mediefiler som visas."
         },
         "links": {
             "telegram": "Telegram",
@@ -89,12 +89,12 @@
         "tagline": "Titta på dina favoritprogram och filmer helt gratis."
     },
     "global": {
-        "name": "M-Flix",
+        "name": "Suized",
         "pages": {
             "about": "Om oss",
             "dmca": "DMCA",
             "login": "Logga in",
-            "pagetitle": "{{title}} - M-Flix",
+            "pagetitle": "{{title}} - Suized",
             "register": "Registrera",
             "settings": "Inställningar"
         }
@@ -175,7 +175,7 @@
         },
         "menus": {
             "downloads": {
-                "disclaimer": "Nedladdningar görs direkt från leverantören. M-Flix har ingen kontroll över hur nedladdningarna tillhandahålls.",
+                "disclaimer": "Nedladdningar görs direkt från leverantören. Suized har ingen kontroll över hur nedladdningarna tillhandahålls.",
                 "downloadVideo": "Ladda ner video",
                 "onAndroid": {
                     "1": "För att ladda ner på Android, klicka på nedladdningsknappen och på den nya sidan <bold>trycker och håller</bold> på videon, välj sedan <bold>spara</bold>.",

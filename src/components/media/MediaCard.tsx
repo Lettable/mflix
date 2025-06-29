@@ -81,21 +81,26 @@ function MediaCardContent({
 
   return (
     <Flare.Base
-      className={`group -m-[0.705em] rounded-xl bg-background-main transition-all duration-300 ease-[cubic-bezier(0.4,0,0.2,1)] focus:relative focus:z-10 ${
-        canLink ? "hover:bg-mediaCard-hoverBackground tabbable" : ""
-      }`}
+      className={classNames(
+        "group -m-[0.705em] rounded-xl bg-background-main transition-colors duration-200 ease-in-out focus:relative focus:z-10",
+        {
+          "hover:bg-mediaCard-hoverBackground tabbable": canLink,
+        }
+      )}
       tabIndex={canLink ? 0 : -1}
       onKeyUp={(e) => e.key === "Enter" && e.currentTarget.click()}
-    >
+    />
       <Flare.Light
-        flareSize={50}
+        flareSize={0}
         cssColorVar="--colors-mediaCard-hoverAccent"
-        backgroundClass="bg-mediaCard-hoverBackground duration-300 ease-[cubic-bezier(0.4,0,0.2,1)]"
-        className={classNames({
-          "rounded-xl bg-background-main transition-opacity duration-300 ease-[cubic-bezier(0.4,0,0.2,1)]": true,
-          "opacity-0": !canLink,
-          "group-hover:opacity-100": canLink,
-        })}
+        backgroundClass="bg-mediaCard-hoverBackground transition-colors duration-200 ease-in-out"
+        className={classNames(
+          "rounded-xl bg-background-main transition-opacity duration-200 ease-in-out will-change-opacity",
+          {
+            "opacity-0": !canLink,
+            "group-hover:opacity-100": canLink,
+          }
+        )}
       />
       <Flare.Child
         className={`pointer-events-auto relative mb-2 p-[0.4em] transition-all duration-300 ease-[cubic-bezier(0.4,0,0.2,1)] ${
@@ -215,7 +220,7 @@ function MediaCardContent({
           </div>
         )}
       </Flare.Child>
-    </Flare.Base>
+    </Flare.Base >
   );
 }
 
