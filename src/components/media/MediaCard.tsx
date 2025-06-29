@@ -89,7 +89,7 @@ function MediaCardContent({
       )}
       tabIndex={canLink ? 0 : -1}
       onKeyUp={(e) => e.key === "Enter" && e.currentTarget.click()}
-    />
+    >
       <Flare.Light
         flareSize={0}
         cssColorVar="--colors-mediaCard-hoverAccent"
@@ -103,9 +103,8 @@ function MediaCardContent({
         )}
       />
       <Flare.Child
-        className={`pointer-events-auto relative mb-2 p-[0.4em] transition-all duration-300 ease-[cubic-bezier(0.4,0,0.2,1)] ${
-          canLink ? "group-hover:scale-[0.97]" : "opacity-60"
-        }`}
+        className={`pointer-events-auto relative mb-2 p-[0.4em] transition-all duration-300 ease-[cubic-bezier(0.4,0,0.2,1)] ${canLink ? "group-hover:scale-[0.97]" : "opacity-60"
+          }`}
       >
         <div
           className={classNames(
@@ -143,14 +142,12 @@ function MediaCardContent({
           {percentage !== undefined ? (
             <>
               <div
-                className={`absolute inset-x-0 -bottom-px pb-1 h-12 bg-gradient-to-t from-mediaCard-shadow to-transparent transition-colors ${
-                  canLink ? "group-hover:from-mediaCard-hoverShadow" : ""
-                }`}
+                className={`absolute inset-x-0 -bottom-px pb-1 h-12 bg-gradient-to-t from-mediaCard-shadow to-transparent transition-colors ${canLink ? "group-hover:from-mediaCard-hoverShadow" : ""
+                  }`}
               />
               <div
-                className={`absolute inset-x-0 bottom-0 h-12 bg-gradient-to-t from-mediaCard-shadow to-transparent transition-colors ${
-                  canLink ? "group-hover:from-mediaCard-hoverShadow" : ""
-                }`}
+                className={`absolute inset-x-0 bottom-0 h-12 bg-gradient-to-t from-mediaCard-shadow to-transparent transition-colors ${canLink ? "group-hover:from-mediaCard-hoverShadow" : ""
+                  }`}
               />
               <div className="absolute inset-x-0 bottom-0 p-3">
                 <div className="relative h-1 overflow-hidden rounded-full bg-mediaCard-barColor">
@@ -181,9 +178,8 @@ function MediaCardContent({
           ) : null}
 
           <div
-            className={`absolute inset-0 flex items-center justify-center bg-mediaCard-badge bg-opacity-80 transition-opacity duration-500 ${
-              closable ? "opacity-100" : "pointer-events-none opacity-0"
-            }`}
+            className={`absolute inset-0 flex items-center justify-center bg-mediaCard-badge bg-opacity-80 transition-opacity duration-500 ${closable ? "opacity-100" : "pointer-events-none opacity-0"
+              }`}
           >
             <IconPatch
               clickable
