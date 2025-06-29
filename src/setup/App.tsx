@@ -169,7 +169,7 @@ function App() {
           <Route path="/dmca" element={<DmcaPage />} />
           {/* Support page */}
           <Route path="/support" element={<SupportPage />} />
-          <Route path="/jip" element={<JipPage />} />
+{/*           <Route path="/jip" element={<JipPage />} /> */}
           {/* Discover pages */}
           <Route path="/discover" element={<Discover />} />
           <Route
