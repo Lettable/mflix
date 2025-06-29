@@ -80,143 +80,145 @@ function MediaCardContent({
   }
 
   return (
-    <Flare.Base
-      className={classNames(
-        "group -m-[0.705em] rounded-xl bg-background-main transition-colors duration-200 ease-in-out focus:relative focus:z-10",
-        {
-          "hover:bg-mediaCard-hoverBackground tabbable": canLink,
-        }
-      )}
-      tabIndex={canLink ? 0 : -1}
-      onKeyUp={(e) => e.key === "Enter" && e.currentTarget.click()}
-    >
-      <Flare.Light
-        flareSize={0}
-        cssColorVar="--colors-mediaCard-hoverAccent"
-        backgroundClass="bg-mediaCard-hoverBackground transition-colors duration-200 ease-in-out"
+    <>
+      <Flare.Base
         className={classNames(
-          "rounded-xl bg-background-main transition-opacity duration-200 ease-in-out will-change-opacity",
+          "group -m-[0.705em] rounded-xl bg-background-main transition-colors duration-200 ease-in-out focus:relative focus:z-10",
           {
-            "opacity-0": !canLink,
-            "group-hover:opacity-100": canLink,
+            "hover:bg-mediaCard-hoverBackground tabbable": canLink,
           }
         )}
-      />
-      <Flare.Child
-        className={`pointer-events-auto relative mb-2 p-[0.4em] transition-all duration-300 ease-[cubic-bezier(0.4,0,0.2,1)] ${canLink ? "group-hover:scale-[0.97]" : "opacity-60"
-          }`}
+        tabIndex={canLink ? 0 : -1}
+        onKeyUp={(e) => e.key === "Enter" && e.currentTarget.click()}
       >
-        <div
+        <Flare.Light
+          flareSize={0}
+          cssColorVar="--colors-mediaCard-hoverAccent"
+          backgroundClass="bg-mediaCard-hoverBackground transition-colors duration-200 ease-in-out"
           className={classNames(
-            "relative mb-4 pb-[150%] w-full overflow-hidden rounded-xl bg-mediaCard-hoverBackground bg-cover bg-center transition-all duration-300 ease-[cubic-bezier(0.4,0,0.2,1)]",
+            "rounded-xl bg-background-main transition-opacity duration-200 ease-in-out will-change-opacity",
             {
-              "group-hover:rounded-[10px]": canLink,
+              "opacity-0": !canLink,
+              "group-hover:opacity-100": canLink,
             }
           )}
-          style={{
-            backgroundImage: media.poster
-              ? `url(${media.poster})`
-              : "url(/placeholder.png)",
-          }}
+        />
+        <Flare.Child
+          className={`pointer-events-auto relative mb-2 p-[0.4em] transition-all duration-300 ease-[cubic-bezier(0.4,0,0.2,1)] ${canLink ? "group-hover:scale-[0.97]" : "opacity-60"
+            }`}
         >
-          {series ? (
-            <div
-              className={[
-                "absolute right-2 top-2 rounded-md bg-mediaCard-badge px-2 py-1 transition-colors",
-              ].join(" ")}
-            >
-              <p
+          <div
+            className={classNames(
+              "relative mb-4 pb-[150%] w-full overflow-hidden rounded-xl bg-mediaCard-hoverBackground bg-cover bg-center transition-all duration-300 ease-[cubic-bezier(0.4,0,0.2,1)]",
+              {
+                "group-hover:rounded-[10px]": canLink,
+              }
+            )}
+            style={{
+              backgroundImage: media.poster
+                ? `url(${media.poster})`
+                : "url(/placeholder.png)",
+            }}
+          >
+            {series ? (
+              <div
                 className={[
-                  "text-center text-xs font-bold text-mediaCard-badgeText transition-colors",
-                  closable ? "" : "group-hover:text-white",
+                  "absolute right-2 top-2 rounded-md bg-mediaCard-badge px-2 py-1 transition-colors",
                 ].join(" ")}
               >
-                {t("media.episodeDisplay", {
-                  season: series.season || 1,
-                  episode: series.episode,
-                })}
-              </p>
-            </div>
-          ) : null}
-
-          {percentage !== undefined ? (
-            <>
-              <div
-                className={`absolute inset-x-0 -bottom-px pb-1 h-12 bg-gradient-to-t from-mediaCard-shadow to-transparent transition-colors ${canLink ? "group-hover:from-mediaCard-hoverShadow" : ""
-                  }`}
-              />
-              <div
-                className={`absolute inset-x-0 bottom-0 h-12 bg-gradient-to-t from-mediaCard-shadow to-transparent transition-colors ${canLink ? "group-hover:from-mediaCard-hoverShadow" : ""
-                  }`}
-              />
-              <div className="absolute inset-x-0 bottom-0 p-3">
-                <div className="relative h-1 overflow-hidden rounded-full bg-mediaCard-barColor">
-                  <div
-                    className="absolute inset-y-0 left-0 rounded-full bg-mediaCard-barFillColor"
-                    style={{
-                      width: percentageString,
-                    }}
-                  />
-                </div>
+                <p
+                  className={[
+                    "text-center text-xs font-bold text-mediaCard-badgeText transition-colors",
+                    closable ? "" : "group-hover:text-white",
+                  ].join(" ")}
+                >
+                  {t("media.episodeDisplay", {
+                    season: series.season || 1,
+                    episode: series.episode,
+                  })}
+                </p>
               </div>
-            </>
-          ) : null}
+            ) : null}
 
-          {!closable && (
+            {percentage !== undefined ? (
+              <>
+                <div
+                  className={`absolute inset-x-0 -bottom-px pb-1 h-12 bg-gradient-to-t from-mediaCard-shadow to-transparent transition-colors ${canLink ? "group-hover:from-mediaCard-hoverShadow" : ""
+                    }`}
+                />
+                <div
+                  className={`absolute inset-x-0 bottom-0 h-12 bg-gradient-to-t from-mediaCard-shadow to-transparent transition-colors ${canLink ? "group-hover:from-mediaCard-hoverShadow" : ""
+                    }`}
+                />
+                <div className="absolute inset-x-0 bottom-0 p-3">
+                  <div className="relative h-1 overflow-hidden rounded-full bg-mediaCard-barColor">
+                    <div
+                      className="absolute inset-y-0 left-0 rounded-full bg-mediaCard-barFillColor"
+                      style={{
+                        width: percentageString,
+                      }}
+                    />
+                  </div>
+                </div>
+              </>
+            ) : null}
+
+            {!closable && (
+              <div
+                className="absolute bookmark-button"
+                onClick={(e) => e.preventDefault()}
+              >
+                <MediaBookmarkButton media={media} />
+              </div>
+            )}
+
+            {searchQuery.length > 0 && !closable ? (
+              <div className="absolute" onClick={(e) => e.preventDefault()}>
+                <MediaBookmarkButton media={media} />
+              </div>
+            ) : null}
+
             <div
-              className="absolute bookmark-button"
-              onClick={(e) => e.preventDefault()}
+              className={`absolute inset-0 flex items-center justify-center bg-mediaCard-badge bg-opacity-80 transition-opacity duration-500 ${closable ? "opacity-100" : "pointer-events-none opacity-0"
+                }`}
             >
-              <MediaBookmarkButton media={media} />
+              <IconPatch
+                clickable
+                className="text-2xl text-mediaCard-badgeText transition-transform hover:scale-110 duration-500"
+                onClick={() => closable && onClose?.()}
+                icon={Icons.X}
+              />
+            </div>
+          </div>
+
+          <h1 className="mb-1 line-clamp-3 max-h-[4.5rem] text-ellipsis break-words font-bold text-white">
+            <span>{media.title}</span>
+          </h1>
+          <div className="media-info-container justify-content-center flex flex-wrap">
+            <DotList className="text-xs" content={dotListContent} />
+          </div>
+
+          {!closable && !enableLowPerformanceMode && (
+            <div className="absolute bottom-0 translate-y-1 right-1">
+              <button
+                className="media-more-button p-2"
+                type="button"
+                onClick={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  onShowDetails?.(media);
+                }}
+              >
+                <Icon
+                  className="text-xs font-semibold text-type-secondary"
+                  icon={Icons.ELLIPSIS}
+                />
+              </button>
             </div>
           )}
-
-          {searchQuery.length > 0 && !closable ? (
-            <div className="absolute" onClick={(e) => e.preventDefault()}>
-              <MediaBookmarkButton media={media} />
-            </div>
-          ) : null}
-
-          <div
-            className={`absolute inset-0 flex items-center justify-center bg-mediaCard-badge bg-opacity-80 transition-opacity duration-500 ${closable ? "opacity-100" : "pointer-events-none opacity-0"
-              }`}
-          >
-            <IconPatch
-              clickable
-              className="text-2xl text-mediaCard-badgeText transition-transform hover:scale-110 duration-500"
-              onClick={() => closable && onClose?.()}
-              icon={Icons.X}
-            />
-          </div>
-        </div>
-
-        <h1 className="mb-1 line-clamp-3 max-h-[4.5rem] text-ellipsis break-words font-bold text-white">
-          <span>{media.title}</span>
-        </h1>
-        <div className="media-info-container justify-content-center flex flex-wrap">
-          <DotList className="text-xs" content={dotListContent} />
-        </div>
-
-        {!closable && !enableLowPerformanceMode && (
-          <div className="absolute bottom-0 translate-y-1 right-1">
-            <button
-              className="media-more-button p-2"
-              type="button"
-              onClick={(e) => {
-                e.preventDefault();
-                e.stopPropagation();
-                onShowDetails?.(media);
-              }}
-            >
-              <Icon
-                className="text-xs font-semibold text-type-secondary"
-                icon={Icons.ELLIPSIS}
-              />
-            </button>
-          </div>
-        )}
-      </Flare.Child>
-    </Flare.Base >
+        </Flare.Child>
+      </Flare.Base >
+    </>
   );
 }
 
