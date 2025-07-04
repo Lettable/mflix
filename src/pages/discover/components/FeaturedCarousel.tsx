@@ -412,7 +412,7 @@ export function FeaturedCarousel({
     let rafId: number;
     const animate = () => {
       setOffset((prev) => {
-        const lerp = 0.1;
+        const lerp = 0.2;
         return {
           x: prev.x + (targetOffset.current.x - prev.x) * lerp,
           y: prev.y + (targetOffset.current.y - prev.y) * lerp,
