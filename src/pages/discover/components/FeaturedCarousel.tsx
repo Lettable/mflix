@@ -148,6 +148,7 @@ export function FeaturedCarousel({
   const [releaseInfo, setReleaseInfo] = useState<TraktReleaseResponse | null>(
     null,
   );
+  const [offset, setOffset] = useState<{ x: number; y: number }>({ x: 0, y: 0 });
 
   const currentMedia = media[currentIndex];
 
@@ -397,6 +398,18 @@ export function FeaturedCarousel({
     }
   };
 
+
+  useEffect(() => {
+    const handleMouseMove = (e: MouseEvent) => {
+      const x = ((e.clientX / window.innerWidth) - 0.5) * 2;
+      const y = ((e.clientY / window.innerHeight) - 0.5) * 2;
+      setOffset({ x, y });
+    };
+  
+    window.addEventListener("mousemove", handleMouseMove);
+    return () => window.removeEventListener("mousemove", handleMouseMove);
+  }, []);
+
   const handleTouchStart = (e: React.TouchEvent) => {
     setTouchStart(e.targetTouches[0].clientX);
   };
@@ -587,10 +600,14 @@ export function FeaturedCarousel({
         {media.map((item, index) => (
           <div
             key={item.id}
-            className={`absolute inset-0 transition-opacity duration-1000 ${
+            className={classNames(
+              "absolute inset-0 transition-opacity duration-1000 will-change-transform",
               index === currentIndex ? "opacity-100" : "opacity-0"
-            }`}
+            )}
             style={{
+              transform: `scale(1.15) translate(${offset.x * 20}px, ${
+                offset.y * 20
+              }px)`,
               backgroundImage: `url(https://image.tmdb.org/t/p/original${item.backdrop_path})`,
               backgroundSize: "cover",
               backgroundPosition: "center top",
@@ -602,6 +619,7 @@ export function FeaturedCarousel({
           />
         ))}
       </div>
+
 
       {/* Navigation Buttons */}
       <button
