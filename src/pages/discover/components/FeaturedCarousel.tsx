@@ -53,6 +53,8 @@ interface FeaturedCarouselProps {
   forcedCategory?: "movies" | "tvshows" | "editorpicks";
 }
 
+type Offset = { x: number; y: number };
+
 interface IMDbRatingData {
   rating: number;
   votes: number;
@@ -148,7 +150,8 @@ export function FeaturedCarousel({
   const [releaseInfo, setReleaseInfo] = useState<TraktReleaseResponse | null>(
     null,
   );
-  const [offset, setOffset] = useState<{ x: number; y: number }>({ x: 0, y: 0 });
+  const [offset, setOffset] = useState<Offset>({ x: 0, y: 0 });
+  const targetOffset = useRef<Offset>({ x: 0, y: 0 });
 
   const currentMedia = media[currentIndex];
 
@@ -401,13 +404,30 @@ export function FeaturedCarousel({
 
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
-      const x = ((e.clientX / window.innerWidth) - 0.5) * 2;
-      const y = ((e.clientY / window.innerHeight) - 0.5) * 2;
-      setOffset({ x, y });
+      const x = (e.clientX / window.innerWidth - 0.5) * 2;
+      const y = (e.clientY / window.innerHeight - 0.5) * 2;
+      targetOffset.current = { x, y };
+    };
+  
+    let rafId: number;
+    const animate = () => {
+      setOffset((prev) => {
+        const lerp = 0.1;
+        return {
+          x: prev.x + (targetOffset.current.x - prev.x) * lerp,
+          y: prev.y + (targetOffset.current.y - prev.y) * lerp,
+        };
+      });
+      rafId = requestAnimationFrame(animate);
     };
   
     window.addEventListener("mousemove", handleMouseMove);
-    return () => window.removeEventListener("mousemove", handleMouseMove);
+    rafId = requestAnimationFrame(animate);
+  
+    return () => {
+      cancelAnimationFrame(rafId);
+      window.removeEventListener("mousemove", handleMouseMove);
+    };
   }, []);
 
   const handleTouchStart = (e: React.TouchEvent) => {
