@@ -122,6 +122,7 @@ export function MediaCarousel({
   const [selectedGenre, setSelectedGenre] = React.useState<OptionItem | null>(
     null,
   );
+  const [mouseOffset, setMouseOffset] = useState<{ x: number; y: number }>({ x: 0, y: 0 });
 
   // Get available providers and genres
   const mediaType: MediaType = isTVShow ? "tv" : "movie";
@@ -146,6 +147,7 @@ export function MediaCarousel({
     setSelectedProviderId(id);
     setSelectedProviderName(name);
   };
+  
 
   const handleGenreChange = (id: string, name: string) => {
     setSelectedGenreId(id);
@@ -175,6 +177,21 @@ export function MediaCarousel({
     selectedProviderId,
     selectedGenreId,
   ]);
+
+  // mouse offset
+  useEffect(() => {
+    const handleMouseMove = (e: MouseEvent): void => {
+      const x = (e.clientX / window.innerWidth - 0.5) * 6;
+      const y = (e.clientY / window.innerHeight - 0.5) * 6;
+      setMouseOffset({ x, y });
+    };
+  
+    window.addEventListener("mousemove", handleMouseMove);
+    return () => {
+      window.removeEventListener("mousemove", handleMouseMove);
+    };
+  }, []);
+
 
   // Get the appropriate button click handler
   const onButtonClick = showProviders
@@ -505,12 +522,13 @@ export function MediaCarousel({
           {media.length > 0
             ? media.map((item) => (
                 <div
-                  onContextMenu={(e: React.MouseEvent<HTMLDivElement>) =>
-                    e.preventDefault()
-                  }
-                  key={item.id}
-                  className="relative mt-4 group cursor-pointer user-select-none rounded-xl p-2 bg-transparent transition-colors duration-300 w-[10rem] md:w-[11.5rem] h-auto"
-                >
+                    onContextMenu={(e: React.MouseEvent<HTMLDivElement>) => e.preventDefault()}
+                    key={item.id}
+                    className="relative mt-4 group cursor-pointer user-select-none rounded-xl p-2 bg-transparent transition-transform duration-[400ms] ease-[cubic-bezier(0.23,1,0.32,1)] w-[10rem] md:w-[11.5rem] h-auto will-change-transform group-hover:scale-[1.05] group-hover:shadow-xl"
+                    style={{
+                      transform: `translate3d(${mouseOffset.x}px, ${mouseOffset.y}px, 0)`,
+                    } as React.CSSProperties}
+                  >
                   <MediaCard
                     linkable
                     key={item.id}
