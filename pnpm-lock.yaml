@@ -41,7 +41,7 @@ importers:
         version: 0.7.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@movie-web/providers':
         specifier: github:Lettable/providers#production
-        version: https://codeload.github.com/Lettable/providers/tar.gz/255aa1c26e106724ca2c7643223797a6249033a6
+        version: https://codeload.github.com/Lettable/providers/tar.gz/8d39f7f113977b47a3d128f8960d536e6c6c9803
       '@noble/hashes':
         specifier: ^1.8.0
         version: 1.8.0
@@ -1193,8 +1193,8 @@ packages:
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
 
-  '@movie-web/providers@https://codeload.github.com/Lettable/providers/tar.gz/255aa1c26e106724ca2c7643223797a6249033a6':
-    resolution: {tarball: https://codeload.github.com/Lettable/providers/tar.gz/255aa1c26e106724ca2c7643223797a6249033a6}
+  '@movie-web/providers@https://codeload.github.com/Lettable/providers/tar.gz/8d39f7f113977b47a3d128f8960d536e6c6c9803':
+    resolution: {tarball: https://codeload.github.com/Lettable/providers/tar.gz/8d39f7f113977b47a3d128f8960d536e6c6c9803}
     version: 2.3.0
 
   '@napi-rs/wasm-runtime@0.2.9':
@@ -5927,7 +5927,7 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  '@movie-web/providers@https://codeload.github.com/Lettable/providers/tar.gz/255aa1c26e106724ca2c7643223797a6249033a6':
+  '@movie-web/providers@https://codeload.github.com/Lettable/providers/tar.gz/8d39f7f113977b47a3d128f8960d536e6c6c9803':
     dependencies:
       abort-controller: 3.0.0
       cheerio: 1.0.0-rc.12
